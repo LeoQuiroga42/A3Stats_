@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0d1117;
+  --foreground: #e6edf3;
+  --primary: #58a6ff;
+  --primary-foreground: #ffffff;
+  --card: rgba(22, 27, 34, 0.6);
+  --card-foreground: #e6edf3;
+  --card-border: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-card backdrop-blur-md border border-[var(--card-border)] rounded-2xl shadow-lg;
+  }
+}

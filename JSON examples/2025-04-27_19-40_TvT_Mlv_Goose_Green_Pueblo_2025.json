@@ -1,0 +1,6466 @@
+{
+    "id": 29,
+    "missionName": "TvT_Mlv_Goose_Green_Pueblo_2025",
+    "worldname": "Pradera_Ganso",
+    "missionAuthor": "CTU",
+    "missionType": "public",
+    "victory": "",
+    "missionStart": "08:37",
+    "missionEnd": "",
+    "date": "",
+    "scoreBlue": "",
+    "scoreRed": "",
+    "scoreGreen": "",
+    "players": [
+        {
+            "id": 431,
+            "playerUID": "76561198295224591",
+            "name": "[F.A.L] Guiso de waska",
+            "side": "WEST",
+            "shots": 30,
+            "hits": 7,
+            "squad": "B Alpha 1-6",
+            "role": "Combat Medic",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 432,
+            "playerUID": "76561198310016673",
+            "name": "[F.A.L] Elias",
+            "side": "WEST",
+            "shots": 25,
+            "hits": 0,
+            "squad": "B Alpha 1-2",
+            "role": "Sterling SMG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 433,
+            "playerUID": "76561198009296434",
+            "name": "[LLA] Sdo 1°. Rabbit",
+            "side": "WEST",
+            "shots": 31,
+            "hits": 1,
+            "squad": "B Alpha 2-1",
+            "role": "Sterling SMG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 434,
+            "playerUID": "76561199465430292",
+            "name": "[F.T.FOX] PAVIONI",
+            "side": "GUER",
+            "shots": 145,
+            "hits": 18,
+            "squad": "R Alpha 1-6",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 435,
+            "playerUID": "76561198162795907",
+            "name": "SGT.Quiroga.E",
+            "side": "GUER",
+            "shots": 159,
+            "hits": 4,
+            "squad": "R Alpha 2-1",
+            "role": "Lider de Equipo",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 436,
+            "playerUID": "76561198356098108",
+            "name": "[F.A.L.] Reznov",
+            "side": "WEST",
+            "shots": 498,
+            "hits": 21,
+            "squad": "B Alpha 1-2",
+            "role": "MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 437,
+            "playerUID": "76561198411416274",
+            "name": "Cabo Pedro",
+            "side": "WEST",
+            "shots": 120,
+            "hits": 0,
+            "squad": "B Alpha 1-3",
+            "role": "MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 438,
+            "playerUID": "76561199353250831",
+            "name": "PFC.Bodini.B",
+            "side": "GUER",
+            "shots": 150,
+            "hits": 14,
+            "squad": "R Alpha 2-1",
+            "role": "Ayudante MG",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 439,
+            "playerUID": "76561198244446370",
+            "name": "[F.T FOX] Pablo H",
+            "side": "GUER",
+            "shots": 438,
+            "hits": 17,
+            "squad": "R Alpha 1-6",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 440,
+            "playerUID": "76561198178102578",
+            "name": "[506] Casolio.N",
+            "side": "GUER",
+            "shots": 9,
+            "hits": 1,
+            "squad": "R Alpha 2-1",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 441,
+            "playerUID": "76561199111655453",
+            "name": "[F.T.FOX] Comando",
+            "side": "GUER",
+            "shots": 214,
+            "hits": 1,
+            "squad": "R Alpha 1-6",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 442,
+            "playerUID": "76561199045679597",
+            "name": "[F.T. FOX] Santi",
+            "side": "WEST",
+            "shots": 21,
+            "hits": 15,
+            "squad": "B Alpha 1-2",
+            "role": "Rifleman Ayudante MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 443,
+            "playerUID": "76561198094561331",
+            "name": "[F.A.L]Tenkiu",
+            "side": "WEST",
+            "shots": 111,
+            "hits": 0,
+            "squad": "B Alpha 2-3",
+            "role": "Combat Medic",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 444,
+            "playerUID": "76561198085646549",
+            "name": "Spc. Darkvesf",
+            "side": "GUER",
+            "shots": 248,
+            "hits": 7,
+            "squad": "R Alpha 1-2",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 445,
+            "playerUID": "76561198334997503",
+            "name": "[F.A.L] Pato",
+            "side": "WEST",
+            "shots": 191,
+            "hits": 0,
+            "squad": "B Alpha 1-2",
+            "role": "Rifleman",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 446,
+            "playerUID": "76561199177461422",
+            "name": "[F.A.L]Fermin",
+            "side": "WEST",
+            "shots": 60,
+            "hits": 3,
+            "squad": "B Alpha 1-1",
+            "role": "Combat Medic",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 447,
+            "playerUID": "76561198075005323",
+            "name": "[F.T.FOX] Balten",
+            "side": "GUER",
+            "shots": 47,
+            "hits": 8,
+            "squad": "R Alpha 1-6",
+            "role": "Lider de Equipo",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 448,
+            "playerUID": "76561198354235050",
+            "name": "[LLA] Sdo. Zehn",
+            "side": "GUER",
+            "shots": 1,
+            "hits": 0,
+            "squad": "R Alpha 1-3",
+            "role": "Lider de Equipo",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 449,
+            "playerUID": "76561198128643086",
+            "name": "COL.Duarte.M",
+            "side": "GUER",
+            "shots": 783,
+            "hits": 4,
+            "squad": "R Alpha 2-1",
+            "role": "MG",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 450,
+            "playerUID": "76561199210340060",
+            "name": "[F.T.FOX] Pipe",
+            "side": "GUER",
+            "shots": 259,
+            "hits": 1,
+            "squad": "R Alpha 1-6",
+            "role": "MG",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 451,
+            "playerUID": "76561198869313097",
+            "name": "[F.T. FOX] Dustt",
+            "side": "GUER",
+            "shots": 62,
+            "hits": 1,
+            "squad": "R Alpha 1-6",
+            "role": "Ayudante MG",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 452,
+            "playerUID": "76561199166500317",
+            "name": "|ArgA|Rayo|Sdo¹",
+            "side": "GUER",
+            "shots": 11,
+            "hits": 1,
+            "squad": "R Alpha 1-5",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 453,
+            "playerUID": "76561198278460215",
+            "name": "[CTU] Di falco",
+            "side": "GUER",
+            "shots": 24,
+            "hits": 4,
+            "squad": "R Alpha 1-4",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 454,
+            "playerUID": "76561199072177120",
+            "name": "[LLA] Sdo 1° Martinez",
+            "side": "WEST",
+            "shots": 21,
+            "hits": 0,
+            "squad": "B Alpha 1-2",
+            "role": "Rifleman LAW",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 455,
+            "playerUID": "76561199500593248",
+            "name": "[CTU] Maximuss",
+            "side": "GUER",
+            "shots": 107,
+            "hits": 2,
+            "squad": "R Alpha 1-4",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 456,
+            "playerUID": "76561198043440142",
+            "name": "[F.T. FOX]IagoTucu",
+            "side": "WEST",
+            "shots": 12,
+            "hits": 0,
+            "squad": "B Alpha 1-2",
+            "role": "Rifleman Ayudante MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 457,
+            "playerUID": "76561198238789598",
+            "name": "[CTU] Miguel",
+            "side": "WEST",
+            "shots": 19,
+            "hits": 1,
+            "squad": "B Alpha 2-3",
+            "role": "Rifleman - AT",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 458,
+            "playerUID": "76561198242382112",
+            "name": "[F.A.L.] Derii",
+            "side": "WEST",
+            "shots": 35,
+            "hits": 3,
+            "squad": "B Alpha 1-2",
+            "role": "Lider de equipo",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 459,
+            "playerUID": "76561198350147888",
+            "name": "[F.T.FOX] Chive",
+            "side": "WEST",
+            "shots": 134,
+            "hits": 17,
+            "squad": "B Alpha 1-2",
+            "role": "MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 460,
+            "playerUID": "76561198042481546",
+            "name": "[S.F.I.]Esp.Rodzac",
+            "side": "GUER",
+            "shots": 34,
+            "hits": 2,
+            "squad": "R Alpha 1-1",
+            "role": "Medico de combate",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 461,
+            "playerUID": "76561198185375714",
+            "name": "[CTU] Mario Andres",
+            "side": "WEST",
+            "shots": 1,
+            "hits": 0,
+            "squad": "B Alpha 1-3",
+            "role": "Rifleman LAW",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 462,
+            "playerUID": "76561198809035904",
+            "name": "[F.A.L] Standby",
+            "side": "WEST",
+            "shots": 48,
+            "hits": 2,
+            "squad": "B Alpha 1-2",
+            "role": "Rifleman",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 463,
+            "playerUID": "76561198019729724",
+            "name": "[CTU] LEYDEN",
+            "side": "WEST",
+            "shots": 80,
+            "hits": 3,
+            "squad": "B Alpha 2-4",
+            "role": "Lider de equipo",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 464,
+            "playerUID": "76561198432645904",
+            "name": "|ArgA|Conde|Cbo¹",
+            "side": "WEST",
+            "shots": 418,
+            "hits": 2,
+            "squad": "B Alpha 1-3",
+            "role": "MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 465,
+            "playerUID": "76561199013731755",
+            "name": "[F.A.L]LMV_shiva",
+            "side": "GUER",
+            "shots": 64,
+            "hits": 0,
+            "squad": "R Alpha 1-2",
+            "role": "Soldado FAL",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 466,
+            "playerUID": "76561198203395244",
+            "name": "LCpl Grubbs",
+            "side": "WEST",
+            "shots": 0,
+            "hits": 0,
+            "squad": "B Alpha 2-4",
+            "role": "Rifleman",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 467,
+            "playerUID": "76561198314020080",
+            "name": "[S.F.I.] Cmdt. Acido",
+            "side": "GUER",
+            "shots": 281,
+            "hits": 13,
+            "squad": "R Alpha 1-2",
+            "role": "Lider de Equipo",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 468,
+            "playerUID": "76561198966305080",
+            "name": "|ArgA|Jaairo|Tte¹",
+            "side": "WEST",
+            "shots": 77,
+            "hits": 1,
+            "squad": "B Alpha 1-4",
+            "role": "MG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 469,
+            "playerUID": "76561198804889204",
+            "name": "[CTU] Lemonpie",
+            "side": "GUER",
+            "shots": 227,
+            "hits": 12,
+            "squad": "R Alpha 1-4",
+            "role": "MG",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 470,
+            "playerUID": "76561198802200770",
+            "name": "[F.A.L] Watters",
+            "side": "WEST",
+            "shots": 71,
+            "hits": 0,
+            "squad": "B Alpha 1-2",
+            "role": "Rifleman",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 471,
+            "playerUID": "76561199175383853",
+            "name": "[S.F.I.] Sgt. Katy",
+            "side": "GUER",
+            "shots": 48,
+            "hits": 0,
+            "squad": "R Alpha 1-1",
+            "role": "Medico de combate",
+            "class": "CTU_Malvinas_Units_10"
+        },
+        {
+            "id": 472,
+            "playerUID": "76561198014673546",
+            "name": "[CTU] Danny",
+            "side": "WEST",
+            "shots": 0,
+            "hits": 0,
+            "squad": "B Alpha 1-3",
+            "role": "Rifleman",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 473,
+            "playerUID": "76561199216588979",
+            "name": "|ArgA|Armiño|Cbo¹",
+            "side": "WEST",
+            "shots": 107,
+            "hits": 16,
+            "squad": "B Alpha 1-3",
+            "role": "Sterling SMG",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 474,
+            "playerUID": "76561198046962658",
+            "name": "Sgt Martin",
+            "side": "WEST",
+            "shots": 0,
+            "hits": 0,
+            "squad": "B Alpha 2-1",
+            "role": "Lider de equipo",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 475,
+            "playerUID": "76561198065387153",
+            "name": "[LLA] Sdo. Pepe",
+            "side": "WEST",
+            "shots": 27,
+            "hits": 6,
+            "squad": "B Alpha 2-4",
+            "role": "Rifleman LAW",
+            "class": "CTU_Bri_Units_Armor_27"
+        },
+        {
+            "id": 476,
+            "playerUID": "76561198929100454",
+            "name": "|ArgA|Londra|Drg",
+            "side": "WEST",
+            "shots": 9,
+            "hits": 6,
+            "squad": "B Alpha 1-3",
+            "role": "Rifleman",
+            "class": "CTU_Bri_Units_Armor_27"
+        }
+    ],
+    "kills": [
+        {
+            "id": 500,
+            "time": "08:39",
+            "victim": "76561198094561331",
+            "killer": "76561198075005323",
+            "weapon": "FN FAL 50.00",
+            "distance": "337"
+        },
+        {
+            "id": 501,
+            "time": "08:41",
+            "victim": "76561198014673546",
+            "killer": "76561198085646549",
+            "weapon": "FN FAL 50.00",
+            "distance": "294"
+        },
+        {
+            "id": 502,
+            "time": "08:42",
+            "victim": "76561198242382112",
+            "killer": "76561199177461422",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "27"
+        },
+        {
+            "id": 503,
+            "time": "08:42",
+            "victim": "76561198075005323",
+            "killer": "76561199045679597",
+            "weapon": "",
+            "distance": "67"
+        },
+        {
+            "id": 504,
+            "time": "08:42",
+            "victim": "76561198411416274",
+            "killer": "76561199465430292",
+            "weapon": "FN FAL 50.61",
+            "distance": "76"
+        },
+        {
+            "id": 505,
+            "time": "08:43",
+            "victim": "76561198185375714",
+            "killer": "76561199465430292",
+            "weapon": "FN FAL 50.61",
+            "distance": "73"
+        },
+        {
+            "id": 506,
+            "time": "08:43",
+            "victim": "76561198966305080",
+            "killer": "76561199353250831",
+            "weapon": "FN FAL 50.00",
+            "distance": "181"
+        },
+        {
+            "id": 507,
+            "time": "08:44",
+            "victim": "76561198043440142",
+            "killer": "76561198075005323",
+            "weapon": "",
+            "distance": "56"
+        },
+        {
+            "id": 508,
+            "time": "08:44",
+            "victim": "76561198354235050",
+            "killer": "76561198354235050",
+            "weapon": "",
+            "distance": "0"
+        },
+        {
+            "id": 509,
+            "time": "08:44",
+            "victim": "76561198009296434",
+            "killer": "76561199465430292",
+            "weapon": "FN FAL 50.61",
+            "distance": "76"
+        },
+        {
+            "id": 510,
+            "time": "08:44",
+            "victim": "76561198310016673",
+            "killer": "76561199177461422",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "253"
+        },
+        {
+            "id": 511,
+            "time": "08:44",
+            "victim": "76561198929100454",
+            "killer": "76561199045679597",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "41"
+        },
+        {
+            "id": 512,
+            "time": "08:44",
+            "victim": "76561198238789598",
+            "killer": "76561198804889204",
+            "weapon": "FN MAG",
+            "distance": "20"
+        },
+        {
+            "id": 513,
+            "time": "08:45",
+            "victim": "76561198019729724",
+            "killer": "76561198804889204",
+            "weapon": "FN MAG",
+            "distance": "49"
+        },
+        {
+            "id": 514,
+            "time": "08:45",
+            "victim": "76561199177461422",
+            "killer": "76561198314020080",
+            "weapon": "FN FAL 50.00",
+            "distance": "252"
+        },
+        {
+            "id": 515,
+            "time": "08:45",
+            "victim": "76561198278460215",
+            "killer": "76561198065387153",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "5"
+        },
+        {
+            "id": 516,
+            "time": "08:46",
+            "victim": "76561198802200770",
+            "killer": "76561199465430292",
+            "weapon": "FN FAL 50.61",
+            "distance": "75"
+        },
+        {
+            "id": 517,
+            "time": "08:46",
+            "victim": "76561198334997503",
+            "killer": "76561199465430292",
+            "weapon": "FN FAL 50.61",
+            "distance": "79"
+        },
+        {
+            "id": 518,
+            "time": "08:46",
+            "victim": "76561198065387153",
+            "killer": "76561198085646549",
+            "weapon": "FN FAL 50.00",
+            "distance": "6"
+        },
+        {
+            "id": 519,
+            "time": "08:47",
+            "victim": "76561199045679597",
+            "killer": "76561199216588979",
+            "weapon": "Sterling SMG",
+            "distance": "95"
+        },
+        {
+            "id": 520,
+            "time": "08:47",
+            "victim": "76561198869313097",
+            "killer": "76561198356098108",
+            "weapon": "FN MAG",
+            "distance": "104"
+        },
+        {
+            "id": 521,
+            "time": "08:48",
+            "victim": "76561199465430292",
+            "killer": "76561198350147888",
+            "weapon": "FN MAG",
+            "distance": "21"
+        },
+        {
+            "id": 522,
+            "time": "08:48",
+            "victim": "76561199166500317",
+            "killer": "76561198295224591",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "125"
+        },
+        {
+            "id": 523,
+            "time": "08:50",
+            "victim": "76561199013731755",
+            "killer": "76561198162795907",
+            "weapon": "FN FAL 50.00",
+            "distance": "207"
+        },
+        {
+            "id": 525,
+            "time": "08:51",
+            "victim": "76561198432645904",
+            "killer": "76561199353250831",
+            "weapon": "FN FAL 50.00",
+            "distance": "11"
+        },
+        {
+            "id": 526,
+            "time": "08:52",
+            "victim": "76561199111655453",
+            "killer": "76561198350147888",
+            "weapon": "FN MAG",
+            "distance": "97"
+        },
+        {
+            "id": 527,
+            "time": "08:53",
+            "victim": "76561198295224591",
+            "killer": "76561198244446370",
+            "weapon": "FN MAG",
+            "distance": "17"
+        },
+        {
+            "id": 528,
+            "time": "08:54",
+            "victim": "76561198809035904",
+            "killer": "76561198804889204",
+            "weapon": "FN MAG",
+            "distance": "54"
+        },
+        {
+            "id": 529,
+            "time": "08:54",
+            "victim": "76561199216588979",
+            "killer": "76561198314020080",
+            "weapon": "FN FAL 50.00",
+            "distance": "2"
+        },
+        {
+            "id": 530,
+            "time": "08:55",
+            "victim": "76561198804889204",
+            "killer": "76561198356098108",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "39"
+        },
+        {
+            "id": 531,
+            "time": "08:58",
+            "victim": "76561198178102578",
+            "killer": "76561198356098108",
+            "weapon": "Enfield L1A1 SLR",
+            "distance": "10"
+        },
+        {
+            "id": 532,
+            "time": "08:58",
+            "victim": "76561198094561331",
+            "killer": "76561199500593248",
+            "weapon": "FN FAL 50.61",
+            "distance": "8"
+        },
+        {
+            "id": 534,
+            "time": "08:58",
+            "victim": "76561198356098108",
+            "killer": "76561198244446370",
+            "weapon": "FN MAG",
+            "distance": "4"
+        }
+    ],
+    "fps": [
+        {
+            "timeUTC": "2025-04-27T22:12:15.6343262Z",
+            "fps": 39.604
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:38.3505934Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:39.8277273Z",
+            "fps": 14.2985
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:40.906911Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:41.9412709Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:42.9712094Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:44.0730247Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:45.1069119Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:46.1492108Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:47.1835151Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:48.3479661Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:49.3849263Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:50.42189Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:51.4428Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:52.483024Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:53.5061838Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:54.7795519Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:55.8016674Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:56.8236549Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:57.8615577Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:15:58.896673Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:00.0902302Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:01.1252937Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:02.1668183Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:03.5092325Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:04.5334285Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:05.5532341Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:06.5872974Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:07.6979786Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:08.7335547Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:09.7670492Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:11.0552913Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:12.0921724Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:13.528764Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:14.5612289Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:15.6002371Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:16.9880589Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:18.0245573Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:19.0663289Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:20.3009423Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:21.3380713Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:22.3751711Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:23.4050506Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:24.4288585Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:25.4695618Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:26.8341549Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:27.8670272Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:28.9033054Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:30.0922459Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:31.1775015Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:32.1920474Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:33.2273438Z",
+            "fps": 41.9948
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:34.2567368Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:35.3685597Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:36.3992053Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:37.4322751Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:38.4507094Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:39.4777318Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:40.5084753Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:41.5403359Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:42.8821053Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:43.9177917Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:44.9553135Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:46.111518Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:47.1520821Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:48.1762648Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:49.1955132Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:50.2282628Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:51.2641359Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:52.3032895Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:53.3308736Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:54.3698677Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:55.3999711Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:56.4194053Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:57.4549726Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:58.4739706Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:16:59.5150897Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:00.5496921Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:01.5827228Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:02.6173651Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:03.6487536Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:04.6839811Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:05.7215079Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:06.7590812Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:07.7949134Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:08.8454416Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:09.883105Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:10.9173404Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:11.9528087Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:12.9826066Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:14.010832Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:15.0475369Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:16.0773543Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:17.1004243Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:18.1425472Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:19.1831098Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:20.2093985Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:21.2423347Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:22.2754813Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:23.3137169Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:24.3433709Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:25.3680383Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:26.4041908Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:27.4331038Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:28.4634187Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:29.500082Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:30.5237842Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:31.5611913Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:32.5891246Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:33.6280699Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:34.6659957Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:35.6902463Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:36.720648Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:37.7626401Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:38.7970836Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:39.854266Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:40.8958123Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:41.929215Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:42.9654915Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:44.0015367Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:45.0331206Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:46.0719594Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:47.1011872Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:48.1270248Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:49.1702757Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:50.1946447Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:51.233208Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:52.2670283Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:53.2925257Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:54.3218501Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:55.3561848Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:56.3933819Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:57.422626Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:58.4539585Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:17:59.4909229Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:00.5348542Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:01.5748573Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:02.6099522Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:03.6492329Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:04.6754105Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:05.7054654Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:06.7450329Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:07.7690675Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:08.802748Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:09.864799Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:10.900959Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:11.9317997Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:12.9662414Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:14.0020413Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:15.0327015Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:16.0634724Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:17.0986098Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:18.1228569Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:19.153263Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:20.1913825Z",
+            "fps": 47.7612
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:21.2190175Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:22.2504602Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:23.2922805Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:24.3258046Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:25.362587Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:26.3919046Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:27.4183258Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:28.4508209Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:29.4881248Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:30.5226647Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:31.5535255Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:32.5853531Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:33.6514709Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:34.6825115Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:35.9967112Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:37.0386223Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:38.0910328Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:39.1126432Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:40.1510129Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:41.1880765Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:42.3409651Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:43.4313381Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:44.4680723Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:45.7949004Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:46.8176656Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:47.854276Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:48.880426Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:50.2113297Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:51.2429473Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:52.2746945Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:53.3076955Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:54.3537833Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:55.3917739Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:56.5310276Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:57.567176Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:58.837887Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:18:59.8744495Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:00.9100814Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:01.9468157Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:02.9770954Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:04.0084149Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:05.214679Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:06.2349424Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:07.2651773Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:08.3050251Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:09.4057016Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:10.5855662Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:11.6190952Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:12.6548158Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:13.6854089Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:14.7096624Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:15.7455856Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:16.7839845Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:18.2033357Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:19.234376Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:20.2994005Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:21.338461Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:22.4888312Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:23.5221429Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:24.5544884Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:25.6587265Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:26.6867052Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:27.7254972Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:29.0886686Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:30.1166936Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:31.1470401Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:32.1713328Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:33.1994786Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:34.2187422Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:35.259358Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:36.2875916Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:37.6908934Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:38.7324128Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:39.7530131Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:41.1178754Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:42.149765Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:43.1820257Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:44.2149725Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:45.2555598Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:46.2886646Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:47.5411674Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:48.5754368Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:49.726918Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:50.7629672Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:51.78828Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:52.8257079Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:54.0196626Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:55.0489574Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:56.0741383Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:57.4331077Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:58.4721639Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:19:59.5074483Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:00.7075469Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:01.7415993Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:02.7824287Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:04.5863021Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:05.6184601Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:06.7263276Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:07.7670958Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:08.8024363Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:09.8378229Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:10.8738015Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:11.9010975Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:12.943472Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:13.9764972Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:15.0148686Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:16.0457513Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:17.0686892Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:18.1019291Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:19.2721716Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:20.4628403Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:21.4988128Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:22.5376347Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:23.5665634Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:24.6709466Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:25.7078726Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:26.7436058Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:27.8894244Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:28.9241815Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:29.9586735Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:31.0818581Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:32.1090048Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:33.1388507Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:34.1607498Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:35.4079375Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:36.4497103Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:37.6079224Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:38.6445293Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:39.6782699Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:40.8921556Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:41.9291148Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:42.9617155Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:44.1191383Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:45.1405891Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:46.1726623Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:47.5154606Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:48.5433926Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:49.5767941Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:50.6169679Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:51.6471934Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:52.6803089Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:54.0158013Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:55.0521247Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:56.0814175Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:57.4054455Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:58.4349444Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:20:59.4589074Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:00.4937421Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:01.5328841Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:02.5608445Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:03.5949784Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:04.6238885Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:05.6540819Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:06.6846423Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:07.717509Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:08.7378996Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:09.7677917Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:10.8047868Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:11.8379364Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:12.8647986Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:14.3653804Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:15.3861581Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:16.5655822Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:17.6006157Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:18.6349715Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:19.6653855Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:20.918938Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:21.9499452Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:22.9808574Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:24.390809Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:25.4238179Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:26.6429237Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:27.6741148Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:28.7052996Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:29.7493444Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:30.7735054Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:32.0955015Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:33.1343454Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:34.1621477Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:35.1950868Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:36.7590912Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:37.7911856Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:38.8284432Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:39.86422Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:40.9020003Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:41.9368431Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:42.9716214Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:44.035906Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:45.0686667Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:46.1032693Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:47.1431125Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:48.1816319Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:49.2166812Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:50.2480846Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:51.2708235Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:52.2908613Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:53.3337162Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:54.3616572Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:55.3949047Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:56.4271631Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:57.4555727Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:58.4944653Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:21:59.5281201Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:00.5561353Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:01.581498Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:02.6229279Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:03.6488827Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:04.6808227Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:05.7082993Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:06.7406067Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:07.7747504Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:08.8060927Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:09.8382359Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:10.8642289Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:11.8998256Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:12.933893Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:13.9639845Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:14.9951684Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:16.0426572Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:17.0650949Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:18.083312Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:19.1121648Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:20.1451367Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:21.1846146Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:22.2106396Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:23.2332389Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:24.271175Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:25.2920869Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:26.3321576Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:27.3719874Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:28.4106577Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:29.4401396Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:30.4999592Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:31.5400856Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:32.5624552Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:33.5988383Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:34.63171Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:35.6735504Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:36.7051788Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:37.7342692Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:38.7617685Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:39.7876324Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:40.8263755Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:41.8502594Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:42.8748586Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:43.9213185Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:44.9499673Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:46.001472Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:47.0249288Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:48.0525024Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:49.0934606Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:50.1188384Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:51.1568328Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:52.2037873Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:53.2331541Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:54.2614955Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:55.2905541Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:56.3200759Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:57.3532953Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:58.385947Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:22:59.4046019Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:00.4354427Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:01.4669393Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:02.5020199Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:03.5230687Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:04.5488565Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:05.5824921Z",
+            "fps": 47.9042
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:06.6164546Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:07.6606496Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:08.6841624Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:09.7164341Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:10.7386251Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:11.7642132Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:12.8001304Z",
+            "fps": 49.3827
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:13.8218501Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:14.8556917Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:15.8847879Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:16.9057351Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:17.9331623Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:18.9650319Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:19.997831Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:21.0354094Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:22.0600746Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:23.1002822Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:24.1296437Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:25.1576285Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:26.1854825Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:27.2334673Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:28.2640157Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:29.300625Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:30.3277674Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:31.3582564Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:32.383576Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:33.4096385Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:34.4524941Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:35.4821556Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:36.5098274Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:37.534759Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:38.5574598Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:39.5870682Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:40.6196426Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:41.6480784Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:42.6817974Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:43.713717Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:44.747905Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:45.7766359Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:46.8152165Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:47.8421536Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:48.8823949Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:49.9116016Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:50.9330992Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:51.9650111Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:52.9930925Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:54.0142496Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:55.0534459Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:56.1016704Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:57.123822Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:58.1604886Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:23:59.1995932Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:00.2338826Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:01.2581402Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:02.2826621Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:03.3156736Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:04.3393341Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:05.3645648Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:06.3985516Z",
+            "fps": 44.8179
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:07.4320884Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:08.4658124Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:09.4873986Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:10.5304316Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:11.5568094Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:12.6014054Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:13.6231592Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:14.6588332Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:15.6984262Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:16.7274239Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:17.7516418Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:18.7730374Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:19.8021871Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:20.8412102Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:21.8658407Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:22.8860477Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:23.9185709Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:24.935851Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:25.9660469Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:27.0149517Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:28.040041Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:29.0607727Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:30.094651Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:31.1248163Z",
+            "fps": 44.5682
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:32.1593916Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:33.1978046Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:34.2202803Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:35.253716Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:36.2870243Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:37.3216423Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:38.3510899Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:39.3888877Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:40.4244337Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:41.4565485Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:42.4822118Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:43.5118507Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:44.5495761Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:45.5819575Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:46.6076845Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:47.6388529Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:48.6726084Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:49.7104773Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:50.741973Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:51.7867209Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:52.8094026Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:53.8474598Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:54.8716377Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:55.9086082Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:56.9361549Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:57.9756759Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:24:59.0036088Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:00.0376699Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:01.0748696Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:02.0993782Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:03.1225503Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:04.1518578Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:05.1883806Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:06.2187902Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:07.2543063Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:08.2878807Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:09.3126558Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:10.3509846Z",
+            "fps": 48.048
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:11.3746969Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:12.3972888Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:13.4656314Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:14.4883006Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:15.5171482Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:16.5489949Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:17.5829005Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:18.6021211Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:19.6315006Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:20.6631244Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:21.6904831Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:22.7134766Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:23.7329379Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:24.7662861Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:25.8044706Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:26.8382424Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:27.8744335Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:28.9019912Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:29.9313682Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:30.9585477Z",
+            "fps": 47.9042
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:32.0088209Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:33.0502353Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:34.0803381Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:35.1113202Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:36.1364635Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:37.1621945Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:38.192328Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:39.2210402Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:40.2530999Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:41.2945314Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:42.3179892Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:43.3458343Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:44.3751717Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:45.4070464Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:46.433861Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:47.4717139Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:48.5063594Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:49.5359876Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:50.5704681Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:51.5904114Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:52.6303332Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:53.6681524Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:54.7009965Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:55.7416507Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:56.7693221Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:57.7983969Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:58.8318374Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:25:59.8642575Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:00.9005037Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:01.924047Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:02.950813Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:03.9834845Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:05.0064108Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:06.0410025Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:07.0804102Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:08.1138506Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:09.1552Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:10.1833526Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:11.2063938Z",
+            "fps": 47.7612
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:12.2403049Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:13.2804934Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:14.301004Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:15.3256706Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:16.3634726Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:17.3979144Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:18.4262172Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:19.4658457Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:20.4894092Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:21.5152024Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:22.551591Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:23.5841101Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:24.6239123Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:25.6556339Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:26.6986469Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:27.7333743Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:28.7689775Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:29.8090153Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:30.8373107Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:31.8692616Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:32.9114073Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:33.9457961Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:34.974175Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:36.0272269Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:37.0606957Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:38.0961941Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:39.1384682Z",
+            "fps": 45.0704
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:40.1670643Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:41.19126Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:42.2165798Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:43.2646048Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:44.2866067Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:45.314344Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:46.3479574Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:47.3741614Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:48.4040196Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:49.439626Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:50.4786908Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:51.5183476Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:52.5423469Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:53.569045Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:54.5960962Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:55.6302627Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:56.6571725Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:57.6931876Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:58.7147582Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:26:59.7389123Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:00.7724879Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:01.8008749Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:02.841492Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:03.8723192Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:04.9022459Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:05.9356504Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:06.9717297Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:08.0330936Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:09.0614048Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:10.0958619Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:11.1261205Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:12.155522Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:13.1786928Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:14.2088755Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:15.2431159Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:16.2667341Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:17.2905598Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:18.3253807Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:19.3528741Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:20.3815776Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:21.4144765Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:22.4442179Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:23.4808159Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:24.5061494Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:25.5359785Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:26.5635181Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:27.5845515Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:28.6182225Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:29.6535311Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:30.696155Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:31.7321584Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:32.7525862Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:33.7789672Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:34.8173469Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:35.8407324Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:36.8823748Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:37.9048585Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:38.9444811Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:39.9754839Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:41.0341877Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:42.0674645Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:43.1091374Z",
+            "fps": 45.1977
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:44.1472991Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:45.1680348Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:46.1975373Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:47.2238608Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:48.2600969Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:49.2970245Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:50.3179188Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:51.3503943Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:52.3879267Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:53.4261592Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:54.4531164Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:55.4935511Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:56.5319304Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:57.5667939Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:58.5984169Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:27:59.6317354Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:00.6760442Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:01.7141746Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:02.7485722Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:03.7818515Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:04.8142365Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:05.8534837Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:06.8830669Z",
+            "fps": 45.1977
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:07.9086209Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:08.9439027Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:09.9731935Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:11.0118496Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:12.0517887Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:13.0862769Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:14.1168823Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:15.1448086Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:16.1828033Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:17.2154032Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:18.2412142Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:19.2736913Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:20.2945587Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:21.3343906Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:22.3642045Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:23.3972275Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:24.4233591Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:25.4461013Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:26.4835408Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:27.5049228Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:28.5376356Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:29.5773226Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:30.5981091Z",
+            "fps": 44.8179
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:31.6328777Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:32.6611711Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:33.6994788Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:34.750104Z",
+            "fps": 47.9042
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:35.7988991Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:36.8292619Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:37.8672716Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:38.9062841Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:39.9404416Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:40.9684571Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:42.0067056Z",
+            "fps": 47.7612
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:43.0323832Z",
+            "fps": 47.9042
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:44.0567923Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:45.0868233Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:46.1163948Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:47.1513393Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:48.1857107Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:49.2245491Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:50.252831Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:51.2857488Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:52.3268328Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:53.3636469Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:54.3844846Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:55.4251471Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:56.4593102Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:57.4988034Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:58.5328866Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:28:59.5642117Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:00.5889295Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:01.6251917Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:02.6560542Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:03.6967025Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:04.7315105Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:05.7607367Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:06.7989178Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:07.8348434Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:08.8679636Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:09.8955409Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:10.9237254Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:11.9529795Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:12.9899688Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:14.0279443Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:15.0653228Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:16.0947081Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:17.1164498Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:18.1515857Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:19.1854244Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:20.2143071Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:21.2498851Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:22.2803579Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:23.3053788Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:24.3327729Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:25.3668006Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:26.3937392Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:27.4292393Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:28.4685016Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:29.4973056Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:30.5267316Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:31.561126Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:32.6009895Z",
+            "fps": 45.1977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:33.6362709Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:34.6751619Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:35.7141564Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:36.7583743Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:37.7890372Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:38.8150014Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:39.8382383Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:40.8649831Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:41.9024581Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:42.9344224Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:43.963098Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:44.9923073Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:46.0288542Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:47.0650414Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:48.0882939Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:49.1208789Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:50.1456445Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:51.1694791Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:52.2164174Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:53.2467776Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:54.282292Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:55.3097261Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:56.3495204Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:57.3841629Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:58.4232313Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:29:59.4522483Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:00.4918612Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:01.5307688Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:02.5564622Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:03.5842636Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:04.6169353Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:05.6414494Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:06.6799303Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:07.7024522Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:08.7349046Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:09.7649299Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:10.7968209Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:11.8308623Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:12.8653018Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:13.8916679Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:14.9183745Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:15.9538338Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:16.9977729Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:18.0242461Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:19.062419Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:20.0870215Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:21.1285855Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:22.1628207Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:23.200565Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:24.2277337Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:25.2605432Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:26.2979195Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:27.3280681Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:28.3576298Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:29.3911696Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:30.4232902Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:31.4465758Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:32.4712923Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:33.5077873Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:34.5394256Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:35.5749491Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:36.6018073Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:37.6403165Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:38.677084Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:39.7165021Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:40.7478842Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:41.7705221Z",
+            "fps": 47.9042
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:42.7991471Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:43.8283219Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:44.8642687Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:45.8884536Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:46.921953Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:47.9521675Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:49.0143137Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:50.0502763Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:51.0828362Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:52.108246Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:53.1338476Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:54.169004Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:55.1979968Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:56.2375734Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:57.2693871Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:58.290135Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:30:59.3297136Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:00.364513Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:01.4018315Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:02.4361086Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:03.4563705Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:04.4812455Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:05.5227228Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:06.5527089Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:07.5908519Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:08.6186309Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:09.6431045Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:10.6689037Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:11.7018966Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:12.7368051Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:13.7763202Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:14.813927Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:15.8354697Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:16.8680624Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:17.9086382Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:18.9476921Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:19.9671429Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:20.9998116Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:22.0342374Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:23.0643868Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:24.1037358Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:25.1326865Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:26.1609063Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:27.1972434Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:28.2349725Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:29.2744642Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:30.3035159Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:31.3387413Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:32.3692698Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:33.4073743Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:34.4361728Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:35.4644957Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:36.4995176Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:37.526412Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:38.558435Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:39.5988137Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:40.6317111Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:41.673055Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:42.7088325Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:43.741161Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:44.7682306Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:45.810151Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:46.8385185Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:47.8655781Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:48.8953279Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:49.9231327Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:50.9500704Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:51.9856906Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:53.0062265Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:54.0307369Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:55.0654718Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:56.0899444Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:57.1275468Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:58.1496005Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:31:59.1739404Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:00.1941305Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:01.2333495Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:02.271272Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:03.3184355Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:04.33699Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:05.3698116Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:06.4013518Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:07.42737Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:08.4504511Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:09.469575Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:10.4886527Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:11.5282764Z",
+            "fps": 45.3258
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:12.5699668Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:13.5963499Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:14.6170509Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:15.6486801Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:16.6717536Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:17.697128Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:18.7260027Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:19.7656737Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:20.7991753Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:21.828457Z",
+            "fps": 47.9042
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:22.8603021Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:23.8957712Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:24.9215703Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:25.9491787Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:26.9717293Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:28.0010912Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:29.0340445Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:30.0643049Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:31.0952606Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:32.1176162Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:33.1616601Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:34.1969615Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:35.2365781Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:36.2655478Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:37.2974461Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:38.3319931Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:39.3643434Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:40.3944446Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:41.4220329Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:42.4572472Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:43.4903589Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:44.5304073Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:45.5620705Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:46.5980193Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:47.6182031Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:48.652211Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:49.7005779Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:50.7360052Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:51.7726748Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:52.8079473Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:53.8407131Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:54.8779812Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:55.9048008Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:56.9311777Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:57.9569583Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:32:58.9987858Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:00.0303733Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:01.062448Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:02.0942302Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:03.1257355Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:04.1639353Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:05.186705Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:06.2105681Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:07.2480273Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:08.2825532Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:09.3173144Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:10.3504275Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:11.3855859Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:12.4276796Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:13.4623264Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:14.4823624Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:15.5158927Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:16.544394Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:17.5809324Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:18.6148594Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:19.6438487Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:20.6758456Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:21.7156245Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:22.738322Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:23.7649833Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:24.7937097Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:25.8232119Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:26.8582356Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:27.8847373Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:28.9177332Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:29.9505675Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:30.9894739Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:32.0246347Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:33.0644925Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:34.0862382Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:35.114746Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:36.1426055Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:37.1823676Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:38.2189643Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:39.2481249Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:40.27962Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:41.3184821Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:42.35196Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:43.3911488Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:44.4260527Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:45.4495731Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:46.4879146Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:47.5229401Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:48.5596063Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:49.596975Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:50.6271568Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:51.652445Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:52.6888899Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:53.7203096Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:54.7575324Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:55.7859432Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:56.8174891Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:57.8382623Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:58.8760264Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:33:59.9224469Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:00.9549748Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:01.9824098Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:03.010417Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:04.0321496Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:05.0622244Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:06.0948023Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:07.1350607Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:08.1773447Z",
+            "fps": 47.7612
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:09.2121305Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:10.2474114Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:11.2742131Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:12.3020154Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:13.3318412Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:14.3570313Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:15.3820411Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:16.4107274Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:17.4475554Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:18.4810943Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:19.5131542Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:20.5565948Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:21.5937725Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:22.6247442Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:23.6610193Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:24.68792Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:25.7167853Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:26.7523455Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:27.7835697Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:28.8215924Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:29.8587885Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:30.8911873Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:31.9173485Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:32.9431184Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:33.9847817Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:35.0218631Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:36.0610686Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:37.1020511Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:38.1417361Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:39.1640345Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:40.1998525Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:41.2222947Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:42.2518056Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:43.2900058Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:44.3366976Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:45.3752936Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:46.4059421Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:47.4443622Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:48.4740832Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:49.510454Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:50.5311269Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:51.5685513Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:52.6012107Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:53.631864Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:54.6669558Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:55.7033879Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:56.7306314Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:57.7546973Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:58.7956844Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:34:59.8275857Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:00.8627951Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:01.8970814Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:02.9353912Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:03.9749816Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:05.0144087Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:06.0541455Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:07.0906984Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:08.1160954Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:09.1479671Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:10.1732427Z",
+            "fps": 48.048
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:11.204004Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:12.2312995Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:13.2614534Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:14.2875757Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:15.3140196Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:16.3489577Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:17.3745358Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:18.4122704Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:19.4468903Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:20.4822128Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:21.5148115Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:22.5501353Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:23.5872131Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:24.6136734Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:25.6496319Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:26.6732167Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:27.700189Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:28.7291042Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:29.76183Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:30.782893Z",
+            "fps": 44.5682
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:31.8209206Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:32.8558177Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:33.8904475Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:34.9299107Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:35.9664123Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:37.0220685Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:38.0590386Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:39.0958157Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:40.1282584Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:41.1623048Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:42.1985608Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:43.2273827Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:44.2670627Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:45.2966502Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:46.3221563Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:47.3567215Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:48.3957654Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:49.4313016Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:50.4683957Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:51.4931377Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:52.5249421Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:53.5628598Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:54.5970113Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:55.6269768Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:56.6573189Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:57.6845985Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:58.7167583Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:35:59.7513649Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:00.7957116Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:01.8176219Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:02.8565489Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:03.8914053Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:04.930107Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:05.9616199Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:07.006057Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:08.0406678Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:09.0640784Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:10.0967117Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:11.1320802Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:12.1732191Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:13.2138499Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:14.2469665Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:15.2777487Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:16.3072646Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:17.3456971Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:18.3815174Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:19.4162252Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:20.4503459Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:21.4924642Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:22.5303459Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:23.5617271Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:24.5959417Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:25.6333358Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:26.6586819Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:27.6921658Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:28.7318662Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:29.7641403Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:30.7995346Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:31.8407156Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:32.8838323Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:33.9105076Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:34.9446526Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:35.9631035Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:37.0136532Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:38.0514789Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:39.0905857Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:40.1274733Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:41.1547319Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:42.1923294Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:43.2279813Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:44.2641544Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:45.2962943Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:46.3209079Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:47.3602144Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:48.398727Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:49.4274184Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:50.4634172Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:51.4990649Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:52.5301782Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:53.5617688Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:54.5825626Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:55.6159708Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:56.6485497Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:57.6801831Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:58.7212643Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:36:59.7476407Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:00.7821961Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:01.8198446Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:02.8620923Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:03.8949849Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:04.931544Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:05.9746718Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:07.0262181Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:08.0615696Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:09.0943483Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:10.1275537Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:11.1805035Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:12.2167603Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:13.2543787Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:14.289572Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:15.32533Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:16.3537107Z",
+            "fps": 47.619
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:17.3805033Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:18.4152398Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:19.4407219Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:20.4758445Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:21.5077877Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:22.5393666Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:23.5760952Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:24.6050439Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:25.6347126Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:26.6685272Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:27.6987289Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:28.7294725Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:29.7692705Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:30.8038478Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:31.8317968Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:32.8643008Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:33.8990031Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:34.9357014Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:35.9701612Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:37.0209135Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:38.0562392Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:39.0924106Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:40.1287634Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:41.1554315Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:42.194564Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:43.244826Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:44.2825326Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:45.3081559Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:46.3310715Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:47.3541591Z",
+            "fps": 47.7612
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:48.3904894Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:49.4287745Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:50.4547732Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:51.8180415Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:52.8531661Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:54.0475417Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:55.2465252Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:56.2808432Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:57.3188542Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:58.3583914Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:37:59.7294965Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:00.7644235Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:01.7959487Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:02.9645303Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:04.4382966Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:05.4663472Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:06.7059214Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:08.238112Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:09.3982941Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:10.8549194Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:11.8958491Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:12.9404741Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:13.97104Z",
+            "fps": 45.4545
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:15.0009901Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:16.0368515Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:17.067316Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:18.1039923Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:19.1241627Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:20.1546662Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:21.1930419Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:22.2228301Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:23.2517521Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:24.291653Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:25.3229826Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:26.3464834Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:27.366051Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:28.4046019Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:29.5489241Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:30.5699895Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:31.5977716Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:32.749973Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:33.7745558Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:34.8170037Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:35.8481149Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:37.3784202Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:38.6997499Z",
+            "fps": 45.584
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:39.7362619Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:40.765368Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:41.8189442Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:42.8395644Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:43.8816398Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:44.9177127Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:45.955278Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:47.0336267Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:48.0690536Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:49.1779056Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:50.6950331Z",
+            "fps": 44.9438
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:51.9918087Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:53.0332493Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:54.0801358Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:55.1129758Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:56.2432002Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:57.2696562Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:58.3105621Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:38:59.4279667Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:00.8108106Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:01.8391024Z",
+            "fps": 47.4777
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:02.87016Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:03.8995675Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:04.9233543Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:05.9602684Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:06.9989535Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:08.0268521Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:09.0607885Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:10.090645Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:11.1288284Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:12.1660898Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:13.1896534Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:14.2165609Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:15.246606Z",
+            "fps": 45.7143
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:16.2767403Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:17.3000876Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:18.3386959Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:19.3777388Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:20.4049263Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:21.4504607Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:22.4829211Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:23.5148918Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:24.5494171Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:25.585253Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:26.610894Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:27.6470544Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:28.714711Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:29.7359658Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:30.7799224Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:31.817149Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:32.8501449Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:33.8966355Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:34.9254567Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:35.9721025Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:37.0073045Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:38.0505419Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:39.0877811Z",
+            "fps": 46.9208
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:40.1135601Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:41.1422897Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:42.1780585Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:43.1989956Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:44.2495762Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:45.2734814Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:46.3108907Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:47.3478264Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:48.3846236Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:49.4248791Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:50.4497498Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:51.483513Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:52.5114143Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:53.5373728Z",
+            "fps": 47.3373
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:54.5813771Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:55.6142882Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:56.6400924Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:57.6782363Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:58.7054361Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:39:59.7477511Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:00.7828225Z",
+            "fps": 45.8453
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:01.810992Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:02.8424697Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:03.8690139Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:04.8984257Z",
+            "fps": 46.1095
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:05.9682857Z",
+            "fps": 48.048
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:06.9897618Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:08.0217188Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:09.0694186Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:10.1023936Z",
+            "fps": 46.6472
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:11.1319371Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:12.1620684Z",
+            "fps": 46.5116
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:13.1947302Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:14.2246785Z",
+            "fps": 46.3768
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:15.2549277Z",
+            "fps": 47.1976
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:16.2860835Z",
+            "fps": 46.2428
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:17.3109572Z",
+            "fps": 45.977
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:18.3383042Z",
+            "fps": 46.7836
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:19.3675133Z",
+            "fps": 47.0588
+        },
+        {
+            "timeUTC": "2025-04-27T22:40:20.4037794Z",
+            "fps": 44.1989
+        }
+    ]
+}
