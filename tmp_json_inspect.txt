@@ -1,0 +1,43 @@
+{
+  "keys": [
+    "id",
+    "missionName",
+    "worldname",
+    "missionAuthor",
+    "missionType",
+    "victory",
+    "missionStart",
+    "missionEnd",
+    "date",
+    "scoreBlue",
+    "scoreRed",
+    "scoreGreen",
+    "players",
+    "kills",
+    "fps"
+  ],
+  "kill0": {
+    "id": 8530,
+    "time": "18:01",
+    "victim": "76561198804889204",
+    "killer": "76561198317777783",
+    "weapon": "AK-74M",
+    "distance": "482"
+  },
+  "player0": {
+    "id": 3921,
+    "playerUID": "76561198085646549",
+    "name": "Darkvesf",
+    "side": "EAST",
+    "shots": 0,
+    "hits": 0,
+    "squad": "O Alpha 1-3",
+    "role": "10. Fusilero",
+    "class": "O_Soldier_F"
+  },
+  "counts": {
+    "players": 48,
+    "kills": 13,
+    "fps": 2330
+  }
+}

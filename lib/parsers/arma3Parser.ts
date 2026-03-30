@@ -37,7 +37,14 @@ export async function parseArma3Mission(jsonData: any, filename: string) {
       mission_name: jsonData.missionName,
       map_name: jsonData.worldname,
       duration_seconds: duration,
-      played_at: playedAt
+      played_at: playedAt,
+      // Nuevos campos de resultado de misión
+      victory:        jsonData.victory       || null,
+      score_blue:     jsonData.scoreBlue     ? parseInt(jsonData.scoreBlue,  10) : null,
+      score_red:      jsonData.scoreRed      ? parseInt(jsonData.scoreRed,   10) : null,
+      score_green:    jsonData.scoreGreen    ? parseInt(jsonData.scoreGreen, 10) : null,
+      mission_author: jsonData.missionAuthor || null,
+      mission_type:   jsonData.missionType   || null,
     }, { onConflict: 'filename' })
     .select('id, category_id')
     .single();
@@ -116,13 +123,20 @@ export async function parseArma3Mission(jsonData: any, filename: string) {
   const eventsToInsert: any[] = [];
 
   if (jsonData.kills && Array.isArray(jsonData.kills)) {
+    const seenEvents = new Set<string>();
+    
     jsonData.kills.forEach((k: any) => {
       // Regla de cero pérdida
       const { id, time, victim, killer, weapon, distance, ...rest } = k;
+      const eventTimeSecs = timeToSeconds(time) - timeToSeconds(jsonData.missionStart);
+      const uuid = `${killer || 'null'}-${victim || 'null'}-${eventTimeSecs}`;
+      
+      if (seenEvents.has(uuid)) return;
+      seenEvents.add(uuid);
       
       eventsToInsert.push({
         match_id: matchId,
-        event_time: timeToSeconds(time) - timeToSeconds(jsonData.missionStart),
+        event_time: eventTimeSecs,
         event_type: 'KILL',
         actor_uid: killer || null,
         target_uid: victim || null,

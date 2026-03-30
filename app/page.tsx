@@ -41,7 +41,7 @@ export default async function Home({ searchParams }: { searchParams: { cat?: str
     // Query de matches con JOIN a categorías para los badges
     let matchesQuery = supabase
       .from('matches')
-      .select('id, mission_name, map_name, duration_seconds, played_at, match_categories(name, color)')
+      .select('id, mission_name, map_name, duration_seconds, played_at, victory, match_categories(name, color)')
       .order('played_at', { ascending: false })
       .limit(1000);
 
@@ -74,6 +74,7 @@ export default async function Home({ searchParams }: { searchParams: { cat?: str
       duration_seconds: m.duration_seconds,
       played_at: m.played_at,
       category: m.match_categories ?? null,
+      victory: m.victory ?? null,
     }));
   } catch (err) {
     console.error('[General Page] Error al cargar datos de Supabase:', err);

@@ -43,5 +43,5 @@ A3Stats/
 ## 5. Estándar de Tablas Interactivas (DataTables)
 Para mantener consistencia en la UI/UX a través de todos los módulos de A3Stats, todas las tablas de datos (General, Jugadores, Equipos, etc.) deben adherirse al siguiente patrón de componentes React CSR ("use client"):
 - **Paginación:** Selector de cantidad de registros por página (ej. 10, 25, 50, 100).
-- **Ordenamiento (Sorting):** Columnas interactivas haciendo clic en las cabeceras `<th>` correspondientes, permitiendo orden ASC/DESC.
+- **Ordenamiento (Sorting):** TODAS las columnas sin excepción deben ser interactivas haciendo clic en las cabeceras `<th>` correspondientes, permitiendo orden ASC/DESC.
 - **Búsqueda y Filtros:** Campo de búsqueda por texto y filtros dropdown por columnas (Equipos, Rol, Mapa, etc.).

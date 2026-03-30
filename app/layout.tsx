@@ -38,8 +38,20 @@ export default async function RootLayout({
       <body className={`${inter.className} min-h-screen bg-[#0d1117] relative text-[#e6edf3] overflow-x-hidden`}>
         <div className="fixed inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] -z-10 pointer-events-none"></div>
         <Sidebar categories={categories} isAdmin={isAdmin} />
-        <div className="md:ml-64 transition-all duration-300">
+        <div className="md:ml-64 transition-all duration-300 relative pb-16">
           {children}
+        </div>
+        
+        {/* CTU Signature */}
+        <div className="fixed bottom-4 right-6 flex items-center gap-3 z-50 opacity-50 hover:opacity-100 transition-opacity pointer-events-none md:pointer-events-auto mix-blend-screen md:mix-blend-normal">
+          <span className="text-xs font-semibold text-gray-400 tracking-widest uppercase shadow-black drop-shadow-md">
+            By Comunidad Tactica Unida
+          </span>
+          <img 
+            src="/ctu_logo.jpg" 
+            alt="CTU Logo" 
+            className="w-8 h-8 rounded-full object-cover border border-white/10 shadow-lg"
+          />
         </div>
       </body>
     </html>

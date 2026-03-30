@@ -1,0 +1,272 @@
+﻿-----
+File: 2025-04-21_22-54_TvT_Chasiv_Campa├▒a_2025_testing_V6_1.json
+Death: {
+  id: 139,
+  time: '12:12',
+  victim: '76561198047347949',
+  killer: '76561198321652458',
+  weapon: 'AK-74M',
+  distance: '86'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-04-30_22-56_TvT_Chasiv_Campa├▒a_2025_testing_V6_1_2.json
+Death: {
+  id: 735,
+  time: '12:16',
+  victim: '76561198047347949',
+  killer: '76561198019729724',
+  weapon: 'AK-74M',
+  distance: '7'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-05-05_23-40_TvT_Chasiv_Campa├▒a_2025_testing_V7_5.json
+Death: {
+  id: 863,
+  time: '12:13',
+  victim: '76561198047347949',
+  killer: '76561198069663324',
+  weapon: 'AK-74M',
+  distance: '192'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-05-14_22-48_TvT_Chasiv_Campa├▒a_2025_Semana_02.json
+Death: {
+  id: 1000,
+  time: '12:08',
+  victim: '76561198047347949',
+  killer: '76561198019729724',
+  weapon: 'AK-74M',
+  distance: '2'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-05-21_22-43_TvT_Chasiv_Campa├▒a_2025_Semana_03.json
+Death: {
+  id: 1045,
+  time: '16:10',
+  victim: '76561198047347949',
+  killer: '76561198193600334',
+  weapon: 'RShG-2 (Used)',
+  distance: '82'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-05-21_23-54_TvT_Chasiv_Campa├▒a_2025_Semana_03.json
+Death: {
+  id: 1067,
+  time: '20:45',
+  victim: '76561198047347949',
+  killer: '76561198195756930',
+  weapon: 'AK-74M (GP-25)',
+  distance: '13'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-05-22_00-06_TvT_Chasiv_Campa├▒a_2025_Semana_03.json
+Death: {
+  id: 1068,
+  time: '12:00',
+  victim: '76561198047347949',
+  killer: '76561198047347949',
+  weapon: 'Glock 17',
+  distance: '0'
+}
+Victim Side: CIV
+Killer Side: CIV
+-----
+File: 2025-06-04_22-29_TvT_Chasiv_Campa├▒a_2025_Semana_4.json
+Death: {
+  id: 1131,
+  time: '12:13',
+  victim: '76561198047347949',
+  killer: '76561198195756930',
+  weapon: 'AK-74M (GP-25)',
+  distance: '4'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-06-04_22-55_TvT_Chasiv_Campa├▒a_2025_Semana_4.json
+Death: {
+  id: 1136,
+  time: '12:09',
+  victim: '76561198047347949',
+  killer: '76561198193600334',
+  weapon: 'AK-74M',
+  distance: '71'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-06-11_22-50_TvT_Chasiv_Campa├▒a_2025_Semana_5.json
+Death: {
+  id: 1640,
+  time: '12:09',
+  victim: '76561198047347949',
+  killer: '76561198321652458',
+  weapon: 'SVDM',
+  distance: '14'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-06-11_23-33_TvT_Chasiv_Campa├▒a_2025_Semana_5.json
+Death: {
+  id: 1654,
+  time: '12:22',
+  victim: '76561198047347949',
+  killer: '76561198406288596',
+  weapon: 'RPG-26 (Used)',
+  distance: '89'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-06-18_23-02_TvT_Chasiv_Campa├▒a_2025_Semana_6.json
+Death: {
+  id: 1856,
+  time: '12:17',
+  victim: '76561198047347949',
+  killer: '76561198404683670',
+  weapon: 'PKP',
+  distance: '11'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-06-18_23-35_TvT_Chasiv_Campa├▒a_2025_Semana_6.json
+Death: {
+  id: 1876,
+  time: '12:02',
+  victim: '76561198047347949',
+  killer: '76561198195756930',
+  weapon: 'AK-74M',
+  distance: '54'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-06-25_23-23_TvT_Chasiv_Campa├▒a_2025_Semana_6.json
+Death: {
+  id: 1912,
+  time: '12:18',
+  victim: '76561198047347949',
+  killer: '76561198069663324',
+  weapon: 'AK-74M',
+  distance: '107'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-09-22_22-45_Batalla de Nayaf.json
+Death: {
+  id: 4665,
+  time: '12:16',
+  victim: '76561198047347949',
+  killer: '76561198193600334',
+  weapon: 'HK G36A1 (GL)',
+  distance: '29'
+}
+Victim Side: EAST
+Killer Side: WEST
+-----
+File: 2025-09-22_23-09_Batalla de Nayaf.json
+Death: {
+  id: 4677,
+  time: '12:09',
+  victim: '76561198047347949',
+  killer: '76561199144567013',
+  weapon: 'AKM',
+  distance: '4'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2025-10-26_17-48_TvT_AS_Op_Candente_V2.json
+Death: {
+  id: 6197,
+  time: '06:00',
+  victim: '76561198047347949',
+  killer: '76561198371891481',
+  weapon: '',
+  distance: '1273'
+}
+Victim Side: EAST
+Killer Side: WEST
+Death: {
+  id: 6201,
+  time: '06:00',
+  victim: '76561198047347949',
+  killer: '76561198371891481',
+  weapon: '',
+  distance: '675'
+}
+Victim Side: EAST
+Killer Side: WEST
+-----
+File: 2025-10-26_18-32_TvT_Puente_Psarkrom_V2.json
+Death: {
+  id: 6244,
+  time: '17:21',
+  victim: '76561198047347949',
+  killer: '76561198067652455',
+  weapon: "FN FAL 50.61 'Para'",
+  distance: '74'
+}
+Victim Side: EAST
+Killer Side: WEST
+-----
+File: 2025-11-19_23-22_TvT_AS_Op_Dia_De_Elecciones_v5.json
+Death: {
+  id: 6802,
+  time: '04:24',
+  victim: '76561198047347949',
+  killer: '76561198453228236',
+  weapon: '',
+  distance: '22'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2026-03-18_23-08_TvT_Campa├▒a_SiriaLibre_2026_Final_V1_1.json
+Death: {
+  id: 8473,
+  time: '18:23',
+  victim: '76561198047347949',
+  killer: '76561198073899995',
+  weapon: 'AK-74M',
+  distance: '25'
+}
+Victim Side: WEST
+Killer Side: EAST
+-----
+File: 2026-03-26_00-35_TvT_Campa├▒a_SiriaLibre_2026_Final_V1_2.json
+Death: {
+  id: 8587,
+  time: '18:29',
+  victim: '76561198047347949',
+  killer: '76561197989932191',
+  weapon: 'RPG-7V2',
+  distance: '191'
+}
+Victim Side: WEST
+Killer Side: EAST
+Death: {
+  id: 8589,
+  time: '18:29',
+  victim: '76561198047347949',
+  killer: '76561197989932191',
+  weapon: 'RPG-7V2',
+  distance: '190'
+}
+Victim Side: WEST
+Killer Side: EAST

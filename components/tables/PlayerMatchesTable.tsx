@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 
 export type PlayerMatch = {
   matchId: string;
@@ -16,22 +17,33 @@ export type PlayerMatch = {
 };
 
 export function PlayerMatchesTable({ matches }: { matches: PlayerMatch[] }) {
+  const router = useRouter();
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<keyof PlayerMatch>('playedAt');
   const [sortDesc, setSortDesc] = useState(true);
   const [rowsPerPage, setRowsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
-  const [sideFilter, setSideFilter] = useState('');
-  const [mapFilter, setMapFilter] = useState('');
+  const [sideFilter, setSideFilter]   = useState('');
+  const [mapFilter, setMapFilter]     = useState('');
+  const [catFilter, setCatFilter]     = useState('');
+  const [roleFilter, setRoleFilter]   = useState('');
 
   const uniqueSides = useMemo(() => Array.from(new Set(matches.map(m => m.side).filter(Boolean))).sort(), [matches]);
   const uniqueMaps  = useMemo(() => Array.from(new Set(matches.map(m => m.mapName).filter(Boolean))).sort(), [matches]);
+  const uniqueRoles = useMemo(() => Array.from(new Set(matches.map(m => m.role).filter(Boolean))).sort(), [matches]);
+  const uniqueCats  = useMemo(() => {
+    const cats = new Set<string>();
+    matches.forEach(m => { if (m.category) cats.add(m.category.name); });
+    return Array.from(cats).sort();
+  }, [matches]);
 
   const filtered = useMemo(() => {
     return matches
       .filter(m => m.missionName.toLowerCase().includes(search.toLowerCase()) || m.mapName.toLowerCase().includes(search.toLowerCase()))
       .filter(m => (sideFilter ? m.side === sideFilter : true))
       .filter(m => (mapFilter  ? m.mapName === mapFilter : true))
+      .filter(m => (catFilter  ? m.category?.name === catFilter : true))
+      .filter(m => (roleFilter ? m.role === roleFilter : true))
       .sort((a, b) => {
         let valA: any = a[sortBy] ?? '';
         let valB: any = b[sortBy] ?? '';
@@ -63,12 +75,28 @@ export function PlayerMatchesTable({ matches }: { matches: PlayerMatch[] }) {
             value={search} onChange={(e) => setSearch(e.target.value)}
             className="bg-black/40 border border-white/10 rounded-md px-3 py-1.5 text-sm text-white min-w-[200px]"
           />
-          <select value={sideFilter} onChange={(e) => setSideFilter(e.target.value)}
-            className="bg-black/40 border border-white/10 rounded-md px-3 py-1.5 text-sm text-white cursor-pointer">
+          <select
+            value={sideFilter} onChange={e => { setSideFilter(e.target.value); setCurrentPage(1); }}
+            className="bg-black/40 border border-white/10 rounded-md px-3 py-1.5 text-sm text-white cursor-pointer"
+          >
             <option value="">Cualquier Bando</option>
             {uniqueSides.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
-          <select value={mapFilter} onChange={(e) => setMapFilter(e.target.value)}
+          <select
+            value={catFilter} onChange={e => { setCatFilter(e.target.value); setCurrentPage(1); }}
+            className="bg-black/40 border border-white/10 rounded-md px-3 py-1.5 text-sm text-white cursor-pointer"
+          >
+            <option value="">Cualquier Categoría</option>
+            {uniqueCats.map(c => <option key={c} value={c}>{c}</option>)}
+          </select>
+          <select
+            value={roleFilter} onChange={e => { setRoleFilter(e.target.value); setCurrentPage(1); }}
+            className="bg-black/40 border border-white/10 rounded-md px-3 py-1.5 text-sm text-white cursor-pointer max-w-[150px] truncate"
+          >
+            <option value="">Cualquier Rol</option>
+            {uniqueRoles.map(r => <option key={r} value={r}>{r}</option>)}
+          </select>
+          <select value={mapFilter} onChange={(e) => { setMapFilter(e.target.value); setCurrentPage(1); }}
             className="bg-black/40 border border-white/10 rounded-md px-3 py-1.5 text-sm text-white cursor-pointer">
             <option value="">Cualquier Mapa</option>
             {uniqueMaps.map(m => <option key={m} value={m}>{m}</option>)}
@@ -90,9 +118,9 @@ export function PlayerMatchesTable({ matches }: { matches: PlayerMatch[] }) {
             <tr>
               <th className="px-6 py-3 cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('missionName')}>Misión {sortBy === 'missionName' && (sortDesc ? '▼' : '▲')}</th>
               <th className="px-6 py-3 text-center cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('mapName')}>Mapa {sortBy === 'mapName' && (sortDesc ? '▼' : '▲')}</th>
-              <th className="px-6 py-3 text-center">Bando</th>
-              <th className="px-6 py-3 text-center">Rol</th>
-              <th className="px-6 py-3 text-center">Escuadra</th>
+              <th className="px-6 py-3 text-center cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('side')}>Bando {sortBy === 'side' && (sortDesc ? '▼' : '▲')}</th>
+              <th className="px-6 py-3 text-center cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('role')}>Rol {sortBy === 'role' && (sortDesc ? '▼' : '▲')}</th>
+              <th className="px-6 py-3 text-center cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('squadName')}>Escuadra {sortBy === 'squadName' && (sortDesc ? '▼' : '▲')}</th>
               <th className="px-6 py-3 text-center cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('kills')}>Kills {sortBy === 'kills' && (sortDesc ? '▼' : '▲')}</th>
               <th className="px-6 py-3 text-center cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('muertes')}>Muertes {sortBy === 'muertes' && (sortDesc ? '▼' : '▲')}</th>
               <th className="px-6 py-3 text-right cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('playedAt')}>Fecha {sortBy === 'playedAt' && (sortDesc ? '▼' : '▲')}</th>
@@ -100,10 +128,17 @@ export function PlayerMatchesTable({ matches }: { matches: PlayerMatch[] }) {
           </thead>
           <tbody className="divide-y divide-white/5">
             {paginated.map((m, i) => (
-              <tr key={`${m.matchId}-${i}`} className="group hover:bg-white/[0.03] transition-colors">
-                <td className="px-6 py-3 font-medium text-white/90">
+              <tr
+                key={`${m.matchId}-${i}`}
+                onClick={() => router.push(`/operaciones/${m.matchId}`)}
+                className="group hover:bg-white/[0.05] transition-colors cursor-pointer"
+              >
+                <td className="px-6 py-3 font-medium text-white/90 border-l-[3px] border-transparent group-hover:border-purple-500 transition-colors">
                   <div className="flex flex-col gap-1">
-                    <span>{m.missionName}</span>
+                    <div className="flex items-center gap-2">
+                      <span className="flex-1 group-hover:text-blue-400 transition-colors">{m.missionName}</span>
+                      <svg className="w-3.5 h-3.5 text-gray-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
+                    </div>
                     {m.category ? (
                       <span className="inline-flex items-center gap-1 w-fit px-1.5 py-0.5 rounded text-[10px] font-medium"
                         style={{ backgroundColor: `${m.category.color}15`, border: `1px solid ${m.category.color}40`, color: m.category.color }}>

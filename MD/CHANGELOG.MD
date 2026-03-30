@@ -5,6 +5,37 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
+## [1.4.3-alpha] - 2026-03-30
+### Added (Añadido)
+- **Firma y Logo CTU**: Nueva firma global "By Comunidad Tactica Unida" con logo en el Root Layout, esquina inferior derecha, respetando la estética glassmorphism.
+- **Ruta Dinámica en Sincronización**: Nuevo input en `/sync` que permite al administrador tipear la ruta absoluta o relativa de la carpeta en la PC donde leer los JSONs, sin obligarlo a copiarlos a la raíz del proyecto.
+- **Botón Forzar Sincronización Completa**: Agregado comando explícito de bypass para resincronizar toda la DB iterando forzosamente archivos ya existentes.
+
+### Changed (Cambiado)
+- **Deduplicación Estricta de Eventos (Parser)**: El `arma3Parser.ts` ahora genera una firma única en formato `${killer}-${victim}-${eventTimeSecs}` para cada evento de KillFeed extraído del JSON. Si Arma 3 exporta muertes/daño repetido en un mismo frame (por bug de motor o explosivos), el parser lo intercepta e inserta una única fila en BD, solventando el histórico error de bajas dobles (ej: 2 muertes para un mismo jugador en un microsegundo).
+- **Optimización de Ingesta (Sync API)**: La ruta `POST /api/sync` implementa un mapeo de caché (Set) contra `matches` vía consulta inicial a Supabase. Ya no machaca la base con `upsert` repetidos. Si la misión existe en DB, la ignora devolviendo status de 'skipped'. El proceso demora milisegundos para miles de archivos JSON cacheados.
+- **Unificación de Lógica de Fuego Amigo (TK)**: Las muertes del drilldown de misiones (`/operaciones/[id]`) y las del Roster Global ahora unifican reglas de Fuego Amigo y Suicidios (misma arma vs mismo jugador) descartándolas de las tablas de efectividad, para no penalizar estadísticamente el KD ratio. Pasan a ser contadas explícitamente como TK.
+
+## [1.4.0-alpha] - 2026-03-30
+### Added (Añadido)
+- **Drilldown de Misiones/Operaciones** (`/operaciones/[id]`): Nueva ruta SSR individual por partida con:
+  - Header completo con nombre, mapa, duración, fecha, categoría, autor y tipo de misión.
+  - Marcadores de resultado (`score_blue`, `score_red`, `score_green`, `victory`) cuando están disponibles.
+  - 6 Stat Cards: Operadores, Kills Totales, Armas Distintas, Dist. Máxima, Friendly Fire, Precisión Media.
+  - Panel de Composición de Bandos con barra de porcentaje y listado de operadores clickeables.
+  - Top 5 Armas de la operación con barra de escala relativa.
+  - Top Efectivos (más kills) y Mayores Bajas (más muertes) con links al drilldown de jugador.
+  - Tabla de Roster completa (`MissionRosterTable`) con K, D, K/D, Precisión, Bando, Escuadra, Rol.
+  - Kill Feed cronológico (`MissionKillFeedTable`) con filtro de Friendly Fire, armas y búsqueda.
+- **`MissionRosterTable.tsx`**: Nuevo componente CSR con paginación, sorting y filtro por bando.
+- **`MissionKillFeedTable.tsx`**: Nuevo componente CSR con filtro FF, arma, búsqueda y links a operadores.
+- **Migración de BD** (`migration_add_match_results.sql`): Nuevas columnas `victory`, `score_blue`, `score_red`, `score_green`, `mission_author`, `mission_type` en tabla `matches`.
+
+### Changed (Cambiado)
+- **Parser actualizado**: `arma3Parser.ts` ahora persiste los nuevos campos de resultado de la misión al hacer upsert.
+- **`MatchesTable.tsx`**: Filas clickeables → navegan a `/operaciones/[id]` con hover morado y chevron animado.
+- **`PlayerMatchesTable.tsx`**: Filas clickeables → navegan a `/operaciones/[id]` con mismo patrón visual.
+
 ## [1.3.0-alpha] - 2026-03-29
 ### Added (Añadido)
 - **Sistema de Control de Acceso (Auth)**: Implementación de Middleware y Cookies (`a3stats_session`) nativas de Next.js para separar Perfiles de "Administrador" y "Visitante".

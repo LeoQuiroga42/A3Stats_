@@ -1,0 +1,131 @@
+{
+  "victory": "",
+  "missionAuthor": "[CTU] Eduard",
+  "missionType": "public",
+  "scoreBlue": "",
+  "scoreRed": "",
+  "scoreGreen": "",
+  "missionStart": "17:45",
+  "missionEnd": "",
+  "date": "",
+  "sides_breakdown": {
+    "EAST": 24,
+    "WEST": 24
+  },
+  "unique_squads": [
+    "O Alpha 1-3",
+    "B Alpha 1-6",
+    "O Alpha 1-1",
+    "O Alpha 1-4",
+    "B Alpha 1-2",
+    "B Alpha 1-1",
+    "O Alpha 1-2",
+    "B Alpha 1-3"
+  ],
+  "all_kills": [
+    {
+      "id": 8530,
+      "time": "18:01",
+      "victim": "76561198804889204",
+      "killer": "76561198317777783",
+      "weapon": "AK-74M",
+      "distance": "482"
+    },
+    {
+      "id": 8531,
+      "time": "18:02",
+      "victim": "76561199659634036",
+      "killer": "76561198047347949",
+      "weapon": "D-10TG",
+      "distance": "211"
+    },
+    {
+      "id": 8533,
+      "time": "18:04",
+      "victim": "76561198834093514",
+      "killer": "76561198193600334",
+      "weapon": "AK-74M",
+      "distance": "52"
+    },
+    {
+      "id": 8534,
+      "time": "18:04",
+      "victim": "76561198092836397",
+      "killer": "76561198215245683",
+      "weapon": "AK-74M",
+      "distance": "87"
+    },
+    {
+      "id": 8536,
+      "time": "18:05",
+      "victim": "76561198317777783",
+      "killer": "76561198404683670",
+      "weapon": "AK-74M",
+      "distance": "4"
+    },
+    {
+      "id": 8537,
+      "time": "18:05",
+      "victim": "76561198404683670",
+      "killer": "76561198077958206",
+      "weapon": "AK-74M",
+      "distance": "34"
+    },
+    {
+      "id": 8538,
+      "time": "18:05",
+      "victim": "76561198215245683",
+      "killer": "76561198047347949",
+      "weapon": "D-10TG",
+      "distance": "67"
+    },
+    {
+      "id": 8539,
+      "time": "18:05",
+      "victim": "76561198809054981",
+      "killer": "76561198195756930",
+      "weapon": "AK-74M",
+      "distance": "14"
+    },
+    {
+      "id": 8541,
+      "time": "18:06",
+      "victim": "76561198077958206",
+      "killer": "76561198195756930",
+      "weapon": "AK-74M",
+      "distance": "18"
+    },
+    {
+      "id": 8543,
+      "time": "18:08",
+      "victim": "76561198195756930",
+      "killer": "76561199144567013",
+      "weapon": "AK-74M",
+      "distance": "19"
+    },
+    {
+      "id": 8544,
+      "time": "18:09",
+      "victim": "76561198393114612",
+      "killer": "76561199391432195",
+      "weapon": "AK-74M",
+      "distance": "310"
+    },
+    {
+      "id": 8545,
+      "time": "18:15",
+      "victim": "76561198280452967",
+      "killer": "76561199111655453",
+      "weapon": "KORD (6U16)",
+      "distance": "37"
+    },
+    {
+      "id": 8546,
+      "time": "18:15",
+      "victim": "76561198333776097",
+      "killer": "76561198069663324",
+      "weapon": "AK-74M",
+      "distance": "25"
+    }
+  ]
+}

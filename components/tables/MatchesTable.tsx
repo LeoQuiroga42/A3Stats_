@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 
 export type MatchCategory = { name: string; color: string } | null;
 
@@ -11,6 +12,7 @@ export type Match = {
   duration_seconds: number;
   played_at: string;
   category: MatchCategory;
+  victory?: string | null;
 };
 
 function CategoryBadge({ category }: { category: MatchCategory }) {
@@ -34,6 +36,7 @@ function CategoryBadge({ category }: { category: MatchCategory }) {
 }
 
 export function MatchesTable({ matches }: { matches: Match[] }) {
+  const router = useRouter();
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<keyof Match>('played_at');
   const [sortDesc, setSortDesc] = useState(true);
@@ -56,8 +59,14 @@ export function MatchesTable({ matches }: { matches: Match[] }) {
       .filter(m => (mapFilter ? m.map_name === mapFilter : true))
       .filter(m => (catFilter ? (m.category?.name === catFilter) : true))
       .sort((a, b) => {
-        const valA = a[sortBy] ?? '';
-        const valB = b[sortBy] ?? '';
+        let valA: any = a[sortBy] ?? '';
+        let valB: any = b[sortBy] ?? '';
+        
+        if (sortBy === 'category') {
+          valA = a.category?.name || '';
+          valB = b.category?.name || '';
+        }
+
         if (valA < valB) return sortDesc ? 1 : -1;
         if (valA > valB) return sortDesc ? -1 : 1;
         return 0;
@@ -133,7 +142,9 @@ export function MatchesTable({ matches }: { matches: Match[] }) {
               <th className="px-6 py-4 cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('mission_name')}>
                 Designación de Misión {sortBy === 'mission_name' && (sortDesc ? '▼' : '▲')}
               </th>
-              <th className="px-6 py-4">Categoría</th>
+              <th className="px-6 py-4 cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('category')}>
+                Categoría {sortBy === 'category' && (sortDesc ? '▼' : '▲')}
+              </th>
               <th className="px-6 py-4 cursor-pointer hover:text-white transition-colors" onClick={() => handleSort('map_name')}>
                 Terreno {sortBy === 'map_name' && (sortDesc ? '▼' : '▲')}
               </th>
@@ -147,9 +158,21 @@ export function MatchesTable({ matches }: { matches: Match[] }) {
           </thead>
           <tbody className="divide-y divide-white/5">
             {paginatedMatches.map((match) => (
-              <tr key={match.id} className="group hover:bg-white/[0.03] transition-colors cursor-default">
-                <td className="px-6 py-4 font-medium text-white/90 border-l-[3px] border-transparent group-hover:border-blue-500 transition-colors">
-                  {match.mission_name}
+              <tr
+                key={match.id}
+                onClick={() => router.push(`/operaciones/${match.id}`)}
+                className="group hover:bg-white/[0.05] transition-colors cursor-pointer"
+              >
+                <td className="px-6 py-4 font-medium text-white/90 border-l-[3px] border-transparent group-hover:border-purple-500 transition-colors">
+                  <div className="flex items-center gap-2">
+                    <div className="flex flex-col gap-0.5 flex-1 min-w-0">
+                      <span className="group-hover:text-blue-400 transition-colors truncate">{match.mission_name}</span>
+                      {match.victory && (
+                        <span className="text-[10px] font-bold text-yellow-400 w-fit">🏆 {match.victory}</span>
+                      )}
+                    </div>
+                    <svg className="w-4 h-4 text-gray-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
+                  </div>
                 </td>
                 <td className="px-6 py-4">
                   <CategoryBadge category={match.category} />
