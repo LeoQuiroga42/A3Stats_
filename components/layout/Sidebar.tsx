@@ -97,20 +97,16 @@ export function Sidebar({ categories, isAdmin = false }: { categories: Category[
 
       <div className="px-6 py-4 mt-auto">
         {isAdmin ? (
-          <form action="/login" method="POST" className="block">
-            {/* Un pequeño workaround para logout - lo ideal es un form action a un action de next */}
-            <button formAction={async () => {
-              // Redirects or forms... better to use normal Link to a logout endpoint or just a client action. Wait, I will use a Link mapped to /login for visitors, and form for logout.
-            }} className="w-full flex items-center p-3 space-x-3 rounded-xl bg-red-500/10 border border-red-500/20 hover:bg-red-500/20 transition-colors text-left group">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-500 to-blue-500 flex items-center justify-center font-bold text-xs text-white">
-                ADM
-              </div>
-              <div className="flex-1">
-                <p className="text-xs font-semibold text-white">Administrador</p>
-                <p className="text-[10px] text-red-400 font-bold group-hover:underline cursor-pointer" onClick={(e) => { e.preventDefault(); document.cookie = 'a3stats_session=; Max-Age=0; path=/;'; window.location.href = '/'; }}>Cerrar Sesión</p>
-              </div>
-            </button>
-          </form>
+
+          <a href="/api/logout" className="w-full flex items-center p-3 space-x-3 rounded-xl bg-red-500/10 border border-red-500/20 hover:bg-red-500/20 transition-colors text-left group cursor-pointer">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-500 to-blue-500 flex items-center justify-center font-bold text-xs text-white">
+              ADM
+            </div>
+            <div className="flex-1">
+              <p className="text-xs font-semibold text-white">Administrador</p>
+              <p className="text-[10px] text-red-400 font-bold group-hover:underline">Cerrar Sesión</p>
+            </div>
+          </a>
         ) : (
           <Link href="/login" className="flex items-center p-3 space-x-3 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
             <div className="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-gray-400">

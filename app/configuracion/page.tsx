@@ -8,6 +8,8 @@ type MatchRow = { id: string; mission_name: string; played_at: string; category_
 
 const PRESET_COLORS = ['#3B82F6','#F59E0B','#10B981','#EF4444','#8B5CF6','#F97316','#06B6D4','#EC4899'];
 
+import { updateAdminPassword } from './actions';
+
 function getSupabase() {
   return createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -30,7 +32,7 @@ export default function ConfiguracionPage() {
   const [unclassified, setUnclassified] = useState<MatchRow[]>([]);
   const [allMatches, setAllMatches] = useState<MatchRow[]>([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState<'cats' | 'matches'>('cats');
+  const [tab, setTab] = useState<'cats' | 'matches' | 'security'>('cats');
 
   // Modal nueva categoría
   const [showModal, setShowModal] = useState(false);
@@ -39,6 +41,10 @@ export default function ConfiguracionPage() {
   const [formKeywords, setFormKeywords] = useState('');
   const [formColor, setFormColor] = useState(PRESET_COLORS[0]);
   const [saving, setSaving] = useState(false);
+
+  // Password Update
+  const [pwd, setPwd] = useState('');
+  const [pwdStatus, setPwdStatus] = useState<'idle' | 'saving' | 'ok' | 'err'>('idle');
 
   const supabase = getSupabase();
 
@@ -136,6 +142,9 @@ export default function ConfiguracionPage() {
             Clasificar Partidas
             {unclassified.length > 0 && <span className="ml-2 px-1.5 py-0.5 text-[10px] bg-orange-500/20 text-orange-400 border border-orange-500/30 rounded-full">{unclassified.length} sin clasificar</span>}
           </button>
+          <button onClick={() => setTab('security')} className={`px-5 py-2.5 text-sm font-medium transition-colors border-b-2 -mb-px ${tab === 'security' ? 'border-red-500 text-red-400' : 'border-transparent text-gray-400 hover:text-white'}`}>
+            Seguridad
+          </button>
         </div>
 
         {loading ? (
@@ -182,8 +191,8 @@ export default function ConfiguracionPage() {
               )}
             </div>
           </div>
-        ) : (
-          /* ─── Tab Clasificar Partidas ─────────────────────────────────── */
+        ) : tab === 'matches' ? (
+          /* ─── Tab Clasificar Partidas ─────────────────────────────────────────── */
           <div>
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-lg font-bold text-white">Todas las partidas ({allMatches.length})</h2>
@@ -235,7 +244,43 @@ export default function ConfiguracionPage() {
               </table>
             </div>
           </div>
-        )}
+        ) : tab === 'security' ? (
+          /* ─── Tab Seguridad ─────────────────────────────────────────── */
+          <div className="max-w-md mx-auto mt-20">
+            <div className="glass-panel backdrop-blur-xl bg-[#0d1017]/80 p-6 border-white/10 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-orange-500" />
+              <h2 className="text-xl font-bold text-white mb-2">Credencial de Acceso</h2>
+              <p className="text-xs text-gray-400 mb-6">Modifica la contraseña única del Panel de Administrador de A3Stats. Esta sobreescribe el default.</p>
+
+              <div className="space-y-4">
+                <input 
+                  type="password" 
+                  value={pwd}
+                  onChange={(e) => { setPwd(e.target.value); setPwdStatus('idle'); }}
+                  placeholder="Nueva contraseña..."
+                  className="w-full bg-black/40 border border-white/10 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-red-500/50 transition-colors"
+                />
+                
+                {pwdStatus === 'ok' && <p className="text-xs text-green-400 font-medium">Contraseña actualizada exitosamente en el servidor.</p>}
+                {pwdStatus === 'err' && <p className="text-xs text-red-400 font-medium">Ocurrió un error al actualizar.</p>}
+
+                <button 
+                  onClick={async () => {
+                    if (!pwd.trim()) return;
+                    setPwdStatus('saving');
+                    const res = await updateAdminPassword(pwd);
+                    if (res.success) { setPwdStatus('ok'); setPwd(''); }
+                    else setPwdStatus('err');
+                  }}
+                  disabled={pwdStatus === 'saving' || !pwd.trim()}
+                  className="w-full bg-red-600/20 hover:bg-red-600/40 text-red-400 border border-red-500/30 font-bold py-3 rounded-lg transition-all shadow-lg active:scale-[0.98] disabled:opacity-50"
+                >
+                  {pwdStatus === 'saving' ? 'AGREGANDO...' : 'CAMBIAR CONTRASEÑA'}
+                </button>
+              </div>
+            </div>
+          </div>
+        ) : null}
       </div>
 
       {/* ─── Modal Nueva/Editar Categoría ─────────────────────────────────┐ */}

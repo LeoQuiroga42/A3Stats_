@@ -10,11 +10,15 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - **Firma y Logo CTU**: Nueva firma global "By Comunidad Tactica Unida" con logo en el Root Layout, esquina inferior derecha, respetando la estética glassmorphism.
 - **Ruta Dinámica en Sincronización**: Nuevo input en `/sync` que permite al administrador tipear la ruta absoluta o relativa de la carpeta en la PC donde leer los JSONs, sin obligarlo a copiarlos a la raíz del proyecto.
 - **Botón Forzar Sincronización Completa**: Agregado comando explícito de bypass para resincronizar toda la DB iterando forzosamente archivos ya existentes.
+- **Nuevo Icono de Carga (Tank Loading)**: Reemplazo del spinner genérico por un tanque SVG animado con rebote sutil en color blanco, y actualización de leyenda a "DESPLEGANDO".
+- **Tab de Seguridad en Configuración**: Nueva sección para cambiar la contraseña de administrador (`adminPassword`) de forma dinámica escribiendo a un `admin_config.json` local.
+- **Ruta de Logout dedicada**: Nueva API route `/api/logout` para limpiar de forma segura y expirada las cookies `HttpOnly`.
 
 ### Changed (Cambiado)
 - **Deduplicación Estricta de Eventos (Parser)**: El `arma3Parser.ts` ahora genera una firma única en formato `${killer}-${victim}-${eventTimeSecs}` para cada evento de KillFeed extraído del JSON. Si Arma 3 exporta muertes/daño repetido en un mismo frame (por bug de motor o explosivos), el parser lo intercepta e inserta una única fila en BD, solventando el histórico error de bajas dobles (ej: 2 muertes para un mismo jugador en un microsegundo).
 - **Optimización de Ingesta (Sync API)**: La ruta `POST /api/sync` implementa un mapeo de caché (Set) contra `matches` vía consulta inicial a Supabase. Ya no machaca la base con `upsert` repetidos. Si la misión existe en DB, la ignora devolviendo status de 'skipped'. El proceso demora milisegundos para miles de archivos JSON cacheados.
 - **Unificación de Lógica de Fuego Amigo (TK)**: Las muertes del drilldown de misiones (`/operaciones/[id]`) y las del Roster Global ahora unifican reglas de Fuego Amigo y Suicidios (misma arma vs mismo jugador) descartándolas de las tablas de efectividad, para no penalizar estadísticamente el KD ratio. Pasan a ser contadas explícitamente como TK.
+- **Navegación de Cierre de Sesión**: Cambio de `Link` (SPA) a `<a>` tradicional (Full-Navigation) para el logout, garantizando la reconstrucción total de la respuesta del servidor y purga de caché de sesión.
 
 ## [1.4.0-alpha] - 2026-03-30
 ### Added (Añadido)

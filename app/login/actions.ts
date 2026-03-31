@@ -5,7 +5,15 @@ import { redirect } from 'next/navigation';
 
 export async function login(formData: FormData) {
   const pwd = formData.get('password') as string;
-  const adminPwd = process.env.ADMIN_PASSWORD || 'admin123';
+  let adminPwd = process.env.ADMIN_PASSWORD || 'admin123';
+  
+  try {
+    const fs = await import('fs');
+    if (fs.existsSync('admin_config.json')) {
+      const config = JSON.parse(fs.readFileSync('admin_config.json', 'utf-8'));
+      if (config.adminPassword) adminPwd = config.adminPassword;
+    }
+  } catch(e) {}
   
   if (pwd === adminPwd) {
     cookies().set('a3stats_session', 'true', {
