@@ -62,10 +62,11 @@ export default async function OperacionPage({
   ]));
 
   const [{ data: rawAliases }, { data: rawTeams }] = await Promise.all([
-    supabase.from('players').select('steam_uid, alias').in('steam_uid', allUids.length > 0 ? allUids : ['__none__']).limit(1000),
+    supabase.from('players').select('steam_uid, public_id, alias').in('steam_uid', allUids.length > 0 ? allUids : ['__none__']).limit(1000),
     supabase.from('team_players').select('player_uid, teams(name, tag)').in('player_uid', allUids.length > 0 ? allUids : ['__none__']).limit(1000),
   ]);
 
+  const playerInfoMap = new Map((rawAliases || []).map((p: any) => [p.steam_uid, { alias: p.alias, public_id: p.public_id }]));
   const aliasMap = new Map((rawAliases || []).map((p: any) => [p.steam_uid, p.alias]));
   const teamMap  = new Map((rawTeams  || []).map((t: any) => [t.player_uid, t.teams as { name: string; tag: string }]));
 
@@ -155,8 +156,8 @@ export default async function OperacionPage({
 
   // ── 8. Construir props para componentes CSR ─────────────────────────
   const missionPlayers: MissionPlayer[] = players.map((p: any) => ({
-    uid:       p.player_uid,
-    alias:     aliasMap.get(p.player_uid) || p.player_uid,
+    uid:       playerInfoMap.get(p.player_uid)?.public_id || p.player_uid,
+    alias:     aliasMap.get(p.player_uid) || "Op. Desconocido",
     teamTag:   teamMap.get(p.player_uid)?.tag  || null,
     teamName:  teamMap.get(p.player_uid)?.name || null,
     side:      p.side      || '',
@@ -178,8 +179,10 @@ export default async function OperacionPage({
       eventTime:    Number(e.event_time) || 0,
       actorUid:     e.actor_uid  || null,
       actorAlias:   e.actor_uid  ? (aliasMap.get(e.actor_uid)  || null) : null,
+      actorPublicId: e.actor_uid ? (playerInfoMap.get(e.actor_uid)?.public_id || null) : null,
       targetUid:    e.target_uid || null,
       targetAlias:  e.target_uid ? (aliasMap.get(e.target_uid) || null) : null,
+      targetPublicId: e.target_uid ? (playerInfoMap.get(e.target_uid)?.public_id || null) : null,
       weapon:       e.weapon_used || null,
       distance:     Number(e.distance_meters) || 0,
       isFriendlyFire: !!(actorSide && victimSide && actorSide === victimSide && e.actor_uid !== e.target_uid),
@@ -350,10 +353,10 @@ export default async function OperacionPage({
                   {uids.slice(0, 8).map(uid => (
                     <Link
                       key={uid}
-                      href={`/jugadores/${encodeURIComponent(uid)}`}
+                      href={`/jugadores/${encodeURIComponent(playerInfoMap.get(uid)?.public_id || uid)}`}
                       className="text-[10px] text-gray-400 hover:text-white bg-white/5 hover:bg-white/10 px-1.5 py-0.5 rounded transition-colors"
                     >
-                      {aliasMap.get(uid) || uid.slice(0, 8)}
+                      {aliasMap.get(uid) || "Op. Desconocido"}
                     </Link>
                   ))}
                   {uids.length > 8 && (
@@ -411,8 +414,8 @@ export default async function OperacionPage({
                 <span className={`text-xs font-black w-5 shrink-0 ${i === 0 ? 'text-yellow-400' : 'text-gray-600'}`}>
                   {i === 0 ? '★' : `#${i + 1}`}
                 </span>
-                <Link href={`/jugadores/${encodeURIComponent(uid)}`} className="flex-1 text-sm font-semibold text-gray-200 hover:text-blue-400 transition-colors truncate">
-                  {aliasMap.get(uid) || uid}
+                <Link href={`/jugadores/${encodeURIComponent(playerInfoMap.get(uid)?.public_id || uid)}`} className="flex-1 text-sm font-semibold text-gray-200 hover:text-blue-400 transition-colors truncate">
+                  {aliasMap.get(uid) || "Op. Desconocido"}
                 </Link>
                 <span className="text-sm text-blue-300 font-mono font-bold shrink-0">{count} kills</span>
               </div>
@@ -431,8 +434,8 @@ export default async function OperacionPage({
             {topVictims.map(([uid, count], i) => (
               <div key={uid} className="flex items-center gap-3 p-2.5 rounded bg-white/[0.02] hover:bg-white/[0.05] transition-colors">
                 <span className="text-xs font-mono text-gray-600 w-5 shrink-0">#{i + 1}</span>
-                <Link href={`/jugadores/${encodeURIComponent(uid)}`} className="flex-1 text-sm font-semibold text-gray-200 hover:text-blue-400 transition-colors truncate">
-                  {aliasMap.get(uid) || uid}
+                <Link href={`/jugadores/${encodeURIComponent(playerInfoMap.get(uid)?.public_id || uid)}`} className="flex-1 text-sm font-semibold text-gray-200 hover:text-blue-400 transition-colors truncate">
+                  {aliasMap.get(uid) || "Op. Desconocido"}
                 </Link>
                 <span className="text-sm text-red-400 font-mono font-bold shrink-0">{count} bajas</span>
               </div>

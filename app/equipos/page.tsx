@@ -28,10 +28,11 @@ export default async function EquiposPage({
     const { data: dbMembers } = await supabase.from('team_players').select('*').limit(10000);
     const membersMap = new Map((dbMembers || []).map((m: any) => [m.player_uid, m.team_id]));
 
-    const { data: dbPlayers } = await supabase.from('players').select('steam_uid, alias').limit(10000);
+    const { data: dbPlayers } = await supabase.from('players').select('steam_uid, public_id, alias').limit(10000);
     if (dbPlayers) {
       allPlayers = dbPlayers.map(p => ({
-        uid: p.steam_uid,
+        uid: p.public_id, // Usamos ID público para frontend
+        steam_uid: p.steam_uid, // Guardamos interno para lógica de asignación
         alias: p.alias,
         assignedTeamId: membersMap.get(p.steam_uid) || null
       }));

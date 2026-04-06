@@ -61,7 +61,7 @@ export default async function JugadoresPage({
     try {
       const { data: players, error: pErr } = await supabase
         .from('players')
-        .select('steam_uid, alias')
+        .select('steam_uid, public_id, alias')
         .limit(1000);
       if (pErr) {
         console.error('[JugadoresPage] Fallback falló:', pErr.message);
@@ -70,6 +70,7 @@ export default async function JugadoresPage({
         // Devolver jugadores con stats en cero si el RPC falla totalmente
         rpcData = players.map((p: any) => ({
           steam_uid: p.steam_uid,
+          public_id: p.public_id,
           alias: p.alias,
           kills: 0, tks: 0, muertes: 0, total_matches: 0,
           last_match_date: null, equipo_tags: [],
@@ -97,7 +98,8 @@ export default async function JugadoresPage({
     const activeTeam = teamMap.get(r.steam_uid) || null;
 
     return {
-      uid:           r.steam_uid,
+      uid:           r.public_id, // Usamos ID público para URLs
+      steam_uid:     r.steam_uid, // Mantenemos interno para lógica si fuera necesario
       alias:         r.alias,
       activeTeam,
       kills,

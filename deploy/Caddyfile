@@ -1,0 +1,14 @@
+{
+    # Global options
+    email your-email@example.com
+}
+
+# Next.js App
+zonadecombate.ddns.net {
+    reverse_proxy localhost:3000
+}
+
+# Supabase API (Local)
+api.zonadecombate.ddns.net {
+    reverse_proxy localhost:54321
+}

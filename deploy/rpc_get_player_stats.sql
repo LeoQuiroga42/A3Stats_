@@ -18,6 +18,7 @@ DROP FUNCTION IF EXISTS public.get_player_stats();
 CREATE OR REPLACE FUNCTION get_player_stats(p_category_id UUID DEFAULT NULL)
 RETURNS TABLE (
   steam_uid        TEXT,
+  public_id        UUID,
   alias            TEXT,
   total_matches    BIGINT,
   kills            BIGINT,
@@ -108,6 +109,7 @@ AS $$
 
   SELECT
     p.steam_uid,
+    p.public_id,
     p.alias,
     COALESCE(pm.total_matches, 0)                   AS total_matches,
     COALESCE(pk.kills,         0)                   AS kills,

@@ -9,37 +9,44 @@ export default async function PlayerProfilePage({
   params,
   searchParams,
 }: {
-  params: { uid: string };
+  params: { id: string };
   searchParams: { cat?: string };
 }) {
-  const uid = decodeURIComponent(params.uid);
+  const id = decodeURIComponent(params.id);
   const supabase = createAdminClient();
   const catId = searchParams?.cat ?? null;
 
-  // ── 1. Fetch all required data in parallel ──────────────────────────
-  const [
-    { data: player },
-    { data: matchLinks },
-    { data: killsAsActor },
-    { data: deathsAsVictim },
-    { data: teamLink },
-  ] = await Promise.all([
-    supabase.from('players').select('*').eq('steam_uid', uid).single(),
-    supabase.from('match_players').select('match_id, side, squad_name, role, metadata').eq('player_uid', uid).limit(5000),
-    supabase.from('match_events').select('match_id, target_uid, weapon_used, distance_meters').eq('event_type', 'KILL').eq('actor_uid', uid).limit(5000),
-    supabase.from('match_events').select('match_id, actor_uid').eq('event_type', 'KILL').eq('target_uid', uid).limit(5000),
-    supabase.from('team_players').select('team_id, teams(name, tag, logo_url)').eq('player_uid', uid).limit(1),
-  ]);
+  // ── 1. Buscar jugador por ID público ────────────────────────────────
+  const { data: player } = await supabase
+    .from('players')
+    .select('*')
+    .eq('public_id', id)
+    .single();
 
   if (!player) {
     return (
       <main className="flex min-h-screen flex-col items-center justify-center p-10">
         <h1 className="text-3xl font-bold text-red-400 mb-4">Operador No Encontrado</h1>
-        <p className="text-gray-400 mb-6">El UID <code className="text-white bg-black/30 px-2 py-1 rounded">{uid}</code> no existe en la base de datos.</p>
+        <p className="text-gray-400 mb-6">El perfil del operador solicitado no está disponible o no existe en el sistema.</p>
         <Link href="/jugadores" className="text-blue-400 hover:text-blue-300 transition-colors">← Volver al Roster</Link>
       </main>
     );
   }
+
+  const uid = player.steam_uid; // Usamos el UID interno para las relaciones de DB
+
+  // ── 2. Fetch all required data in parallel ──────────────────────────
+  const [
+    { data: matchLinks },
+    { data: killsAsActor },
+    { data: deathsAsVictim },
+    { data: teamLink },
+  ] = await Promise.all([
+    supabase.from('match_players').select('match_id, side, squad_name, role, metadata').eq('player_uid', uid).limit(5000),
+    supabase.from('match_events').select('match_id, target_uid, weapon_used, distance_meters').eq('event_type', 'KILL').eq('actor_uid', uid).limit(5000),
+    supabase.from('match_events').select('match_id, actor_uid').eq('event_type', 'KILL').eq('target_uid', uid).limit(5000),
+    supabase.from('team_players').select('team_id, teams(name, tag, logo_url)').eq('player_uid', uid).limit(1),
+  ]);
 
   const links = matchLinks || [];
   const actorKills = killsAsActor || [];
@@ -64,7 +71,8 @@ export default async function PlayerProfilePage({
   const killerUids = Array.from(new Set(victimDeaths.map(d => d.actor_uid).filter(Boolean)));
   const comboUids = Array.from(new Set([...victimUids, ...killerUids]));
 
-  const { data: interactionPlayers } = await supabase.from('players').select('steam_uid, alias').in('steam_uid', comboUids.length > 0 ? comboUids : ['__none__']);
+  const { data: interactionPlayers } = await supabase.from('players').select('steam_uid, public_id, alias').in('steam_uid', comboUids.length > 0 ? comboUids : ['__none__']);
+  const interactionInfoMap = new Map((interactionPlayers || []).map(p => [p.steam_uid, { alias: p.alias, public_id: p.public_id }]));
   const aliasMap = new Map((interactionPlayers || []).map(p => [p.steam_uid, p.alias]));
 
   // ── 2. Compute global stats ─────────────────────────────────────────
@@ -140,7 +148,7 @@ export default async function PlayerProfilePage({
   const playerKills: PlayerKill[] = actorKills.map(k => {
     const m = matchesMap.get(k.match_id);
     return {
-      victimAlias: aliasMap.get(k.target_uid) || k.target_uid || 'IA/Desconocido',
+      victimAlias: aliasMap.get(k.target_uid) || 'Op. Desconocido',
       weapon: k.weapon_used || 'Desconocida',
       distance: Number(k.distance_meters) || 0,
       missionName: m?.mission_name || 'Desconocida',
@@ -309,10 +317,10 @@ export default async function PlayerProfilePage({
           data={victimTop} 
           emptyText="No ha neutralizado a nadie"
           renderRow={(item, i) => (
-            <div key={i} className="flex justify-between items-center p-3 rounded bg-white/[0.02] hover:bg-white/[0.05] transition-colors group">
-              <span className="text-sm font-bold text-gray-300 group-hover:text-white truncate pr-4">{aliasMap.get(item[0]) || item[0]}</span>
+            <Link key={i} href={`/jugadores/${encodeURIComponent(interactionInfoMap.get(item[0])?.public_id || item[0])}`} className="flex justify-between items-center p-3 rounded bg-white/[0.02] hover:bg-white/[0.05] transition-colors group">
+              <span className="text-sm font-bold text-gray-300 group-hover:text-blue-400 truncate pr-4">{aliasMap.get(item[0]) || "Op. Desconocido"}</span>
               <span className="text-sm text-green-400 font-mono font-bold shrink-0">{item[1]} muertes</span>
-            </div>
+            </Link>
           )}
         />
         <RankingList 
@@ -321,10 +329,10 @@ export default async function PlayerProfilePage({
           data={killerTop} 
           emptyText="No ha sido abatido por otro jugador"
           renderRow={(item, i) => (
-            <div key={i} className="flex justify-between items-center p-3 rounded bg-white/[0.02] hover:bg-white/[0.05] transition-colors group">
-              <span className="text-sm font-bold text-gray-300 group-hover:text-white truncate pr-4">{aliasMap.get(item[0]) || item[0]}</span>
+            <Link key={i} href={`/jugadores/${encodeURIComponent(interactionInfoMap.get(item[0])?.public_id || item[0])}`} className="flex justify-between items-center p-3 rounded bg-white/[0.02] hover:bg-white/[0.05] transition-colors group">
+              <span className="text-sm font-bold text-gray-300 group-hover:text-blue-400 truncate pr-4">{aliasMap.get(item[0]) || "Op. Desconocido"}</span>
               <span className="text-sm text-red-400 font-mono font-bold shrink-0">{item[1]} kills</span>
-            </div>
+            </Link>
           )}
         />
       </div>

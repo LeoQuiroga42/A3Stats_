@@ -1,0 +1,23 @@
+_format_version: "1.1"
+
+services:
+  - name: auth
+    url: http://supabase-auth:9999
+    routes:
+      - name: auth-v1
+        paths:
+          - /auth/v1
+
+  - name: postgrest
+    url: http://supabase-postgrest:3000
+    routes:
+      - name: postgrest-v1
+        paths:
+          - /rest/v1
+
+  - name: realtime
+    url: http://supabase-realtime:4000
+    routes:
+      - name: realtime-v1
+        paths:
+          - /realtime/v1

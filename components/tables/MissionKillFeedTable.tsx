@@ -7,8 +7,10 @@ export type MissionKill = {
   id: string;
   eventTime: number;      // segundos desde inicio
   actorUid: string | null;
+  actorPublicId: string | null;
   actorAlias: string | null;
   targetUid: string | null;
+  targetPublicId: string | null;
   targetAlias: string | null;
   weapon: string | null;
   distance: number;
@@ -124,12 +126,12 @@ export function MissionKillFeedTable({ kills }: { kills: MissionKill[] }) {
 
                 {/* Atacante */}
                 <td className="px-5 py-2.5">
-                  {k.actorUid ? (
+                  {k.actorPublicId ? (
                     <Link
-                      href={`/jugadores/${encodeURIComponent(k.actorUid)}`}
+                      href={`/jugadores/${encodeURIComponent(k.actorPublicId)}`}
                       className="font-semibold text-blue-300 hover:text-blue-200 transition-colors"
                     >
-                      {k.actorAlias || k.actorUid}
+                      {k.actorAlias || "Op. Desconocido"}
                     </Link>
                   ) : (
                     <span className="text-gray-500 italic text-xs">Desconocido</span>
@@ -149,12 +151,12 @@ export function MissionKillFeedTable({ kills }: { kills: MissionKill[] }) {
 
                 {/* Víctima */}
                 <td className="px-5 py-2.5">
-                  {k.targetUid ? (
+                  {k.targetPublicId ? (
                     <Link
-                      href={`/jugadores/${encodeURIComponent(k.targetUid)}`}
+                      href={`/jugadores/${encodeURIComponent(k.targetPublicId)}`}
                       className="font-medium text-gray-300 hover:text-white transition-colors"
                     >
-                      {k.targetAlias || k.targetUid}
+                      {k.targetAlias || "Op. Desconocido"}
                     </Link>
                   ) : (
                     <span className="text-gray-500 italic text-xs">Desconocido</span>
