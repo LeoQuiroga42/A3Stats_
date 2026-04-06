@@ -1,0 +1,24 @@
+services:
+  a3stats:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: a3stats:latest
+    ports:
+      - "3000:3000"
+    env_file: .env.docker
+    volumes:
+      # For development: enable hot reload
+      - ./app:/app/app
+      - ./components:/app/components
+      - ./lib:/app/lib
+      - ./public:/app/public
+      - /app/node_modules
+      - /app/.next
+    restart: unless-stopped
+    networks:
+      - a3stats-network
+
+networks:
+  a3stats-network:
+    driver: bridge
