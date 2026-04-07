@@ -29,13 +29,17 @@ COPY package.json package-lock.json ./
 # Install only production dependencies
 RUN npm ci --only=production
 
+# Create non-root user for security
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
+
 # Copy built application from builder
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 
-# Create non-root user for security
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S nextjs -u 1001
+# Fix permissions for cache directories
+RUN chown -R nextjs:nodejs /app
+
 USER nextjs
 
 EXPOSE 3000
