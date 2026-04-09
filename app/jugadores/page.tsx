@@ -98,7 +98,7 @@ export default async function JugadoresPage({
     const activeTeam = teamMap.get(r.steam_uid) || null;
 
     return {
-      uid:           r.public_id, // Usamos ID público para URLs
+      uid:           r.public_id || r.steam_uid, // Fallback a steam_uid si public_id es undefined
       steam_uid:     r.steam_uid, // Mantenemos interno para lógica si fuera necesario
       alias:         r.alias,
       activeTeam,

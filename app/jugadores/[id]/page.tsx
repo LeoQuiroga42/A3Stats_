@@ -16,12 +16,27 @@ export default async function PlayerProfilePage({
   const supabase = createAdminClient();
   const catId = searchParams?.cat ?? null;
 
-  // ── 1. Buscar jugador por ID público ────────────────────────────────
-  const { data: player } = await supabase
+  // ── 1. Buscar jugador por ID público o steam_uid (fallback) ───────────
+  let player = null;
+  
+  // Intentar buscar por public_id primero
+  const { data: playerByPublicId } = await supabase
     .from('players')
     .select('*')
     .eq('public_id', id)
     .single();
+  
+  // Si no existe por public_id, intentar por steam_uid (fallback)
+  if (!playerByPublicId) {
+    const { data: playerBySteamId } = await supabase
+      .from('players')
+      .select('*')
+      .eq('steam_uid', id)
+      .single();
+    player = playerBySteamId;
+  } else {
+    player = playerByPublicId;
+  }
 
   if (!player) {
     return (
