@@ -1,49 +1,63 @@
-# Build stage
-FROM node:20-alpine AS builder
+# syntax=docker/dockerfile:1.6
 
+# =========================================================
+# Build-time args — sólo NEXT_PUBLIC_* (horneadas en el bundle)
+# =========================================================
+ARG NEXT_PUBLIC_SUPABASE_URL
+ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+# =========================================================
+# Stage 1: deps
+# Instalación separada para cachear node_modules entre builds
+# =========================================================
+FROM node:20-alpine AS deps
 WORKDIR /app
 
-# Copy package files
 COPY package.json package-lock.json ./
-
-# Install dependencies
 RUN npm ci
 
-# Copy source code
-COPY . .
-
-# Build the application
-RUN npm run build
-
-# Production stage
-FROM node:20-alpine
-
+# =========================================================
+# Stage 2: builder
+# =========================================================
+FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Install dumb-init to handle signals properly
-RUN apk add --no-cache dumb-init
+ARG NEXT_PUBLIC_SUPABASE_URL
+ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
 
-# Copy package files
-COPY package.json package-lock.json ./
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1 \
+    NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL} \
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
 
-# Install only production dependencies
-RUN npm ci --only=production
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
 
-# Create non-root user for security
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S nextjs -u 1001
+RUN npm run build
 
-# Copy built application from builder
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
+# =========================================================
+# Stage 3: runner (producción)
+# Sólo copia el standalone bundle: ~20x más liviano
+# =========================================================
+FROM node:20-alpine AS runner
+WORKDIR /app
 
-# Fix permissions for cache directories
-RUN chown -R nextjs:nodejs /app
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1 \
+    PORT=3000 \
+    HOSTNAME=0.0.0.0
+
+RUN apk add --no-cache dumb-init \
+ && addgroup -g 1001 -S nodejs \
+ && adduser  -S nextjs  -u 1001
+
+# Standalone incluye server.js + sólo las node_modules necesarias
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static     ./.next/static
+COPY --from=builder --chown=nextjs:nodejs /app/public           ./public
 
 USER nextjs
 
 EXPOSE 3000
-
-# Use dumb-init to handle signals
 ENTRYPOINT ["dumb-init", "--"]
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
