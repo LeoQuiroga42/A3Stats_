@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { createAdminClient } from '@/lib/supabase/server';
 import { PlayerMatchesTable, PlayerMatch } from '@/components/tables/PlayerMatchesTable';
 import { PlayerKillsTable, PlayerKill } from '@/components/tables/PlayerKillsTable';
+import { MedalDisplay } from '@/components/MedalDisplay';
 
 export const revalidate = 60;
 
@@ -56,16 +57,26 @@ export default async function PlayerProfilePage({
     { data: killsAsActor },
     { data: deathsAsVictim },
     { data: teamLink },
+    { data: playerMedalsData },
   ] = await Promise.all([
     supabase.from('match_players').select('match_id, side, squad_name, role, metadata').eq('player_uid', uid).limit(5000),
     supabase.from('match_events').select('match_id, target_uid, weapon_used, distance_meters').eq('event_type', 'KILL').eq('actor_uid', uid).limit(5000),
     supabase.from('match_events').select('match_id, actor_uid').eq('event_type', 'KILL').eq('target_uid', uid).limit(5000),
     supabase.from('team_players').select('team_id, teams(name, tag, logo_url)').eq('player_uid', uid).limit(1),
+    supabase.from('player_medals').select('medal_id, medal_definitions(id, name, image, description)').eq('player_uid', uid),
   ]);
 
   const links = matchLinks || [];
   const actorKills = killsAsActor || [];
   const victimDeaths = deathsAsVictim || [];
+
+  // Procesar medallas del jugador
+  const medals = (playerMedalsData || []).map((pm: any) => ({
+    id: pm.medal_definitions.id,
+    name: pm.medal_definitions.name,
+    image: pm.medal_definitions.image,
+    description: pm.medal_definitions.description,
+  }));
 
   // Fetch all related matches (filtrado por categoría si aplica)
   const matchIds = Array.from(new Set(links.map(l => l.match_id)));
@@ -257,6 +268,9 @@ export default async function PlayerProfilePage({
           </div>
         </div>
       </div>
+
+      {/* ── Medal Display ──────────────────────────────────────────── */}
+      <MedalDisplay medals={medals} />
 
       {/* ── Stat Cards ─────────────────────────────────────────────── */}
       <div className="w-full max-w-[1600px] z-10 grid grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
